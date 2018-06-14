@@ -20,9 +20,9 @@ ll_filter.c:459:6:ll_rl_id_addr_get	24	static
 ll_filter.c:468:7:ctrl_rl_addr_allowed	32	static
 ll_filter.c:498:7:ctrl_rl_addr_resolve	12	static
 ll_filter.c:513:7:ctrl_rl_enabled	0	static
-ll_filter.c:624:6:ll_rl_rpa_update	88	static
+ll_filter.c:624:6:ll_rl_rpa_update	72	static
 ll_filter.c:677:13:rpa_timeout	8	static
-ll_filter.c:702:6:ll_adv_scan_state_cb	24	static
+ll_filter.c:702:6:ll_adv_scan_state_cb	0	static
 ll_filter.c:711:7:ll_rl_size_get	0	static
 ll_filter.c:716:7:ll_rl_clear	8	static
 ll_filter.c:727:7:ll_rl_add	56	static
