@@ -1,0 +1,5 @@
+smp_null.c:65:12:bt_smp_accept	24	static
+smp_null.c:41:13:bt_smp_recv	24	static
+smp_null.c:31:5:bt_smp_sign_verify	0	static
+smp_null.c:36:5:bt_smp_sign	0	static
+smp_null.c:93:5:bt_smp_init	8	static

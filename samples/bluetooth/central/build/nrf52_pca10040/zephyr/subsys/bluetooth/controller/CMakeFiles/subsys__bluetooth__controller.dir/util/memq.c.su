@@ -1,0 +1,4 @@
+memq.c:15:14:memq_init	0	static
+memq.c:23:14:memq_enqueue	8	static
+memq.c:37:14:memq_peek	0	static
+memq.c:52:14:memq_dequeue	0	static

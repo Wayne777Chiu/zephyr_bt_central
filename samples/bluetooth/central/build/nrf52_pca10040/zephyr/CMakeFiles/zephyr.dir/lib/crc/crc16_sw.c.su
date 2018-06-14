@@ -1,0 +1,3 @@
+crc16_sw.c:9:7:crc16	24	static
+crc16_sw.c:38:7:crc16_ccitt	8	static
+crc16_sw.c:51:7:crc16_itu_t	0	static

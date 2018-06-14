@@ -1,0 +1,2 @@
+ll_addr.c:22:7:ll_addr_get	8	static
+ll_addr.c:43:7:ll_addr_set	16	static

@@ -1,0 +1,2 @@
+ll_tx_pwr.c:14:33:ll_tx_pwr_lvl_get	0	static
+ll_tx_pwr.c:26:6:ll_tx_pwr_get	0	static

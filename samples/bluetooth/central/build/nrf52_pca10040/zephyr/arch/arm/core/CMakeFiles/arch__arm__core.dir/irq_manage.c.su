@@ -1,0 +1,6 @@
+irq_manage.c:43:6:_arch_irq_enable	0	static
+irq_manage.c:57:6:_arch_irq_disable	0	static
+irq_manage.c:68:5:_arch_irq_is_enabled	0	static
+irq_manage.c:84:6:_irq_priority_set	0	static
+irq_manage.c:129:6:_irq_spurious	0	static
+irq_manage.c:146:6:_arch_isr_direct_pm	8	static

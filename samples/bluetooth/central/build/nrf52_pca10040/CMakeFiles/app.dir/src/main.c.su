@@ -1,0 +1,5 @@
+bluetooth.h:438:19:bt_addr_le_to_str.constprop	56	static
+main.c:53:13:connected	48	static
+main.c:73:13:disconnected	56	static
+main.c:24:13:device_found	56	static
+main.c:101:6:main	16	static

@@ -1,0 +1,4 @@
+arm_mpu.c:485:12:arm_mpu_init	12	static
+arm_mpu.c:246:6:arm_core_mpu_enable	0	static
+arm_mpu.c:257:6:arm_core_mpu_disable	0	static
+arm_mpu.c:270:6:arm_core_mpu_configure	8	static

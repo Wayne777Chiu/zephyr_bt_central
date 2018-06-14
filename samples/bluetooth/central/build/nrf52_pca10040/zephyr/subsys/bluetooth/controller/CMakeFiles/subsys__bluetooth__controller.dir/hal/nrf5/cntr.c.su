@@ -1,0 +1,5 @@
+cntr.c:20:6:cntr_init	0	static
+cntr.c:32:7:cntr_start	0	static
+cntr.c:46:7:cntr_stop	16	static
+cntr.c:62:7:cntr_cnt_get	0	static
+cntr.c:67:6:cntr_cmp_set	0	static

@@ -1,0 +1,4 @@
+mayfly.c:23:6:mayfly_init	32	static
+mayfly.c:40:6:mayfly_enable	16	static
+mayfly.c:59:7:mayfly_enqueue	24	static
+mayfly.c:113:6:mayfly_run	72	static

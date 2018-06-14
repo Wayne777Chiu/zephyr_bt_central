@@ -1,0 +1,7 @@
+mempool.c:36:5:init_static_pools	16	static
+mempool.c:50:5:k_mem_pool_alloc	56	static
+mempool.c:108:6:k_mem_pool_free_id	16	static
+mempool.c:129:6:k_mem_pool_free	0	static
+mempool.c:134:7:k_mem_pool_malloc	16	static
+mempool.c:157:6:k_free	0	static
+mempool.c:207:7:z_thread_malloc	0	static
