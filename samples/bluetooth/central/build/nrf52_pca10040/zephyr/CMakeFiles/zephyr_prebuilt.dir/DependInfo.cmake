@@ -10,7 +10,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "BUILD_VERSION=v1.12.0-186-gcec15db"
+  "BUILD_VERSION=v1.12.0-187-ge44c4ea"
   "KERNEL"
   "NRF52832_XXAA"
   "_FORTIFY_SOURCE=2"

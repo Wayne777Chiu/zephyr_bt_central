@@ -7,7 +7,7 @@ hci_core.c:729:13:update_conn_param	0	static
 hci_core.c:2931:13:hci_cmd_done	48	static
 atomic.h:327:19:atomic_test_bit	0	static
 hci_core.c:186:17:bt_hci_cmd_create	32	static
-hci_core.c:243:5:bt_hci_cmd_send_sync	48	static
+hci_core.c:243:5:bt_hci_cmd_send_sync	40	static
 hci_core.c:428:12:set_le_scan_enable	16	static
 hci_core.c:333:12:set_random_address	16	static
 hci_core.c:412:12:le_set_private_addr	16	static
@@ -25,8 +25,8 @@ hci_core.c:2995:12:start_le_scan	24	static
 hci_core.c:3065:5:bt_le_scan_update	16	static
 hci_core.c:4499:12:bt_init	80	static
 hci_core.c:4531:13:init_work	8	static
-hci_core.c:708:12:hci_le_set_phy.isra.29	16	static
-hci_core.c:673:12:hci_le_set_data_len.isra.30	32	static
+hci_core.c:708:12:hci_le_set_phy.isra.28	16	static
+hci_core.c:673:12:hci_le_set_data_len.isra.29	32	static
 hci_core.c:758:13:le_enh_conn_complete	56	static
 hci_core.c:1085:12:le_conn_param_neg_reply	16	static
 hci_core.c:3394:13:hci_tx_thread	56	static

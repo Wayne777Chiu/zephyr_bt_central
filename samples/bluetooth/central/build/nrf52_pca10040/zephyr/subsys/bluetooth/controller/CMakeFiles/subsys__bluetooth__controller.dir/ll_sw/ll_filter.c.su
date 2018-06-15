@@ -1,7 +1,6 @@
 ll_filter.c:94:13:wl_find	24	static
 ll_filter.c:350:13:filter_wl_update	24	static
 ll_filter.c:612:12:rl_access_check.constprop	8	static
-byteorder.h:290:20:sys_memcpy_swap.constprop	8	static
 ll_filter.c:372:13:filter_rl_update	24	static
 ll_filter.c:221:12:ctrl_lrpa_get	0	static
 ll_filter.c:231:7:ctrl_irks_get	0	static

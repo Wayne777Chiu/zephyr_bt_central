@@ -2,7 +2,7 @@ ticker.c:263:14:ticker_dequeue	20	static
 ticker.c:415:13:ticks_to_expire_prep	12	static
 ticker.c:477:13:ticker_job_op_cb	0	static
 ticker.c:319:6:ticker_worker	32	static
-ticker.c:1043:6:ticker_job	112	static
+ticker.c:1043:6:ticker_job	120	static
 ticker.c:1154:7:ticker_init	20	static
 ticker.c:1203:7:ticker_is_initialized	0	static
 ticker.c:1208:6:ticker_trigger	4	static

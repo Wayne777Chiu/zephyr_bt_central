@@ -7,6 +7,7 @@ thread.c:73:6:_thread_essential_set	0	static
 thread.c:83:6:_thread_essential_clear	0	static
 thread.c:93:5:_is_thread_essential	0	static
 thread.c:99:6:k_busy_wait	16	static
+thread.c:195:6:_check_stack_sentinel	0	static
 thread.c:213:6:_impl_k_thread_start	8	static
 thread.c:291:6:_setup_new_thread	40	static
 thread.c:346:9:_impl_k_thread_create	40	static
