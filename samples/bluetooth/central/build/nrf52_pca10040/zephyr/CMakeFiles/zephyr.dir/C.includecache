@@ -724,6 +724,10 @@ device.h
 misc/__assert.h
 -
 
+../../../../../include/console.h
+zephyr/types.h
+-
+
 ../../../../../include/crc16.h
 zephyr/types.h
 -
@@ -1242,6 +1246,20 @@ syscall_handler.h
 
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/misc/generated/configs.c
 toolchain.h
+-
+
+/home/wewise/zephyr_prj/zephyr/subsys/console/getchar.c
+zephyr.h
+-
+uart.h
+-
+misc/printk.h
+-
+console.h
+-
+drivers/console/console.h
+-
+drivers/console/uart_console.h
 -
 
 /home/wewise/zephyr_prj/zephyr/subsys/logging/sys_log.c

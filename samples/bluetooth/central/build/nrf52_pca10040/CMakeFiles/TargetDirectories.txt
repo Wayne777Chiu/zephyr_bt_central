@@ -119,6 +119,8 @@
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/rebuild_cache.dir
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/edit_cache.dir
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir
+/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/console/CMakeFiles/rebuild_cache.dir
+/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/console/CMakeFiles/edit_cache.dir
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/fs/CMakeFiles/rebuild_cache.dir
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/fs/CMakeFiles/edit_cache.dir
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/net/CMakeFiles/rebuild_cache.dir

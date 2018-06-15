@@ -887,6 +887,33 @@ misc/printk.c.s:
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/misc/printk.c.s
 .PHONY : misc/printk.c.s
 
+subsys/console/getchar.obj: subsys/console/getchar.c.obj
+
+.PHONY : subsys/console/getchar.obj
+
+# target to build an object file
+subsys/console/getchar.c.obj:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/subsys/console/getchar.c.obj
+.PHONY : subsys/console/getchar.c.obj
+
+subsys/console/getchar.i: subsys/console/getchar.c.i
+
+.PHONY : subsys/console/getchar.i
+
+# target to preprocess a source file
+subsys/console/getchar.c.i:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/subsys/console/getchar.c.i
+.PHONY : subsys/console/getchar.c.i
+
+subsys/console/getchar.s: subsys/console/getchar.c.s
+
+.PHONY : subsys/console/getchar.s
+
+# target to generate assembly for a file
+subsys/console/getchar.c.s:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/subsys/console/getchar.c.s
+.PHONY : subsys/console/getchar.c.s
+
 subsys/logging/sys_log.obj: subsys/logging/sys_log.c.obj
 
 .PHONY : subsys/logging/sys_log.obj
@@ -1027,6 +1054,9 @@ help:
 	@echo "... misc/printk.obj"
 	@echo "... misc/printk.i"
 	@echo "... misc/printk.s"
+	@echo "... subsys/console/getchar.obj"
+	@echo "... subsys/console/getchar.i"
+	@echo "... subsys/console/getchar.s"
 	@echo "... subsys/logging/sys_log.obj"
 	@echo "... subsys/logging/sys_log.i"
 	@echo "... subsys/logging/sys_log.s"
