@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/zephyr.dir/lib/mempool/mempool.c.obj"
   "CMakeFiles/zephyr.dir/lib/rbtree/rb.c.obj"
   "CMakeFiles/zephyr.dir/misc/printk.c.obj"
+  "CMakeFiles/zephyr.dir/misc/stats.c.obj"
   "CMakeFiles/zephyr.dir/misc/generated/configs.c.obj"
   "CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj"
   "CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj"
