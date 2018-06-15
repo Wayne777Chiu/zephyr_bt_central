@@ -422,6 +422,33 @@ ll_sw/ll_addr.c.s:
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_addr.c.s
 .PHONY : ll_sw/ll_addr.c.s
 
+ll_sw/ll_adv.obj: ll_sw/ll_adv.c.obj
+
+.PHONY : ll_sw/ll_adv.obj
+
+# target to build an object file
+ll_sw/ll_adv.c.obj:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_adv.c.obj
+.PHONY : ll_sw/ll_adv.c.obj
+
+ll_sw/ll_adv.i: ll_sw/ll_adv.c.i
+
+.PHONY : ll_sw/ll_adv.i
+
+# target to preprocess a source file
+ll_sw/ll_adv.c.i:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_adv.c.i
+.PHONY : ll_sw/ll_adv.c.i
+
+ll_sw/ll_adv.s: ll_sw/ll_adv.c.s
+
+.PHONY : ll_sw/ll_adv.s
+
+# target to generate assembly for a file
+ll_sw/ll_adv.c.s:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_adv.c.s
+.PHONY : ll_sw/ll_adv.c.s
+
 ll_sw/ll_filter.obj: ll_sw/ll_filter.c.obj
 
 .PHONY : ll_sw/ll_filter.obj
@@ -707,6 +734,9 @@ help:
 	@echo "... ll_sw/ll_addr.obj"
 	@echo "... ll_sw/ll_addr.i"
 	@echo "... ll_sw/ll_addr.s"
+	@echo "... ll_sw/ll_adv.obj"
+	@echo "... ll_sw/ll_adv.i"
+	@echo "... ll_sw/ll_adv.s"
 	@echo "... ll_sw/ll_filter.obj"
 	@echo "... ll_sw/ll_filter.i"
 	@echo "... ll_sw/ll_filter.s"

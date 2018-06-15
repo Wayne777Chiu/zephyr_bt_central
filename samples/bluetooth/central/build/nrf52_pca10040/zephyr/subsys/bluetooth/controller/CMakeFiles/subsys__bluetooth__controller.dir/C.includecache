@@ -1270,6 +1270,28 @@ ll_sw/pdu.h
 ll_sw/ctrl.h
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_sw/ctrl.h
 
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_adv.c
+string.h
+-
+zephyr.h
+-
+bluetooth/hci.h
+-
+util/util.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/util/util.h
+pdu.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/pdu.h
+ctrl.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ctrl.h
+ll.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll.h
+hal/debug.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/hal/debug.h
+ll_filter.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_filter.h
+ll_adv.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_adv.h
+
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_adv.h
 
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_filter.c

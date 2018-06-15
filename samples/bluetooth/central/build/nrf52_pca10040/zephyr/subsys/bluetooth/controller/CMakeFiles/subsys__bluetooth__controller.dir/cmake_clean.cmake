@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/subsys__bluetooth__controller.dir/hci/hci.c.obj"
   "CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ctrl.c.obj"
   "CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll.c.obj"
+  "CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_adv.c.obj"
   "CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_scan.c.obj"
   "CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_master.c.obj"
   "CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_filter.c.obj"
