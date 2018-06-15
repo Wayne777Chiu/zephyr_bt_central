@@ -1,4 +1,0 @@
-mem_slab.c:54:12:init_mem_slab_module	20	static
-mem_slab.c:72:6:k_mem_slab_init	12	static
-mem_slab.c:86:5:k_mem_slab_alloc	16	static
-mem_slab.c:115:6:k_mem_slab_free	16	static

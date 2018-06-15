@@ -1,2 +1,0 @@
-uuid.c:35:13:uuid_to_uuid128	16	static
-uuid.c:64:5:bt_uuid_cmp	48	static

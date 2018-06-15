@@ -1,4 +1,0 @@
-idle.c:39:28:_sys_soc_resume	0	static
-idle.c:43:28:_sys_soc_resume_from_deep_sleep	0	static
-idle.c:128:6:_sys_power_save_idle_exit	0	static
-idle.c:155:6:idle	8	static

@@ -1,9 +1,0 @@
-msg_q.c:34:12:init_msgq_module	8	static
-ksched.h:222:20:_ready_thread	0	static
-msg_q.c:50:6:k_msgq_init	0	static
-msg_q.c:67:5:_impl_k_msgq_alloc_init	24	static
-msg_q.c:100:6:k_msgq_cleanup	8	static
-msg_q.c:111:5:_impl_k_msgq_put	24	static
-msg_q.c:167:6:_impl_k_msgq_get_attrs	0	static
-msg_q.c:186:5:_impl_k_msgq_get	16	static
-msg_q.c:248:6:_impl_k_msgq_purge	16	static

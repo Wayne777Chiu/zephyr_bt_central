@@ -1,7 +1,0 @@
-init.c:144:6:k_call_stacks_analyze	0	static
-init.c:155:6:_bss_zero	0	static
-init.c:179:6:_data_copy	0	static
-init.c:252:32:main	0	static
-init.c:203:13:bg_thread_main	8	static
-init.c:383:7:z_early_boot_rand32_get	24	static
-init.c:437:36:_Cstart	32	static

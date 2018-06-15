@@ -1,6 +1,0 @@
-fault.c:209:13:_FaultThreadShow.isra.2	8	static
-fault.c:228:14:_MpuFault	16	static
-fault.c:367:14:_UsageFault	8	static
-fault.c:308:13:_BusFault	16	static
-fault.c:611:6:_Fault	16	static
-fault.c:702:6:_FaultInit	0	static

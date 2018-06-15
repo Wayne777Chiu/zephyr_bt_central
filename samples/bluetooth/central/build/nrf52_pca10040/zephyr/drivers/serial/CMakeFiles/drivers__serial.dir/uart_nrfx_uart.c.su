@@ -1,4 +1,0 @@
-uart_nrfx_uart.c:161:12:uart_nrfx_err_check	0	static
-uart_nrfx_uart.c:133:22:uart_nrfx_poll_out	8	static
-uart_nrfx_uart.c:110:12:uart_nrfx_poll_in	8	static
-uart_nrfx_uart.c:327:12:uart_nrfx_init	24	static

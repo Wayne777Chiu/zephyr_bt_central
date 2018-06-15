@@ -1,8 +1,0 @@
-stats.c:97:1:stats_walk	32	static
-stats.c:160:1:stats_group_walk	16	static
-stats.c:176:1:stats_group_get_next	0	static
-stats.c:195:1:stats_group_find	16	static
-stats.c:220:1:stats_register	24	static
-stats.c:282:1:stats_reset	0	static
-stats.c:134:1:stats_init	0	static
-stats.c:260:1:stats_init_and_reg	16	static

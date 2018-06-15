@@ -1,3 +1,0 @@
-log.c:22:13:bt_hex	16	static
-log.c:50:13:bt_addr_str	32	static
-log.c:63:13:bt_addr_le_str	56	static

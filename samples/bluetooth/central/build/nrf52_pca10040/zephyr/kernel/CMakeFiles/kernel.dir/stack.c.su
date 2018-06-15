@@ -1,6 +1,0 @@
-stack.c:32:12:init_stack_module	8	static
-stack.c:48:6:k_stack_init	0	static
-stack.c:59:5:_impl_k_stack_alloc_init	16	static
-stack.c:87:6:k_stack_cleanup	8	static
-stack.c:98:6:_impl_k_stack_push	24	static
-stack.c:138:5:_impl_k_stack_pop	16	static
