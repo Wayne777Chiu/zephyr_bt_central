@@ -172,7 +172,7 @@ all: CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
@@ -299,12 +299,12 @@ zephyr/CMakeFiles/linker_pass_final_script.dir/all: zephyr/CMakeFiles/offsets_h.
 zephyr/CMakeFiles/linker_pass_final_script.dir/all: zephyr/CMakeFiles/zephyr_prebuilt.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/linker_pass_final_script.dir/build.make zephyr/CMakeFiles/linker_pass_final_script.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/linker_pass_final_script.dir/build.make zephyr/CMakeFiles/linker_pass_final_script.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=54 "Built target linker_pass_final_script"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num= "Built target linker_pass_final_script"
 .PHONY : zephyr/CMakeFiles/linker_pass_final_script.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/linker_pass_final_script.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 95
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/linker_pass_final_script.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/linker_pass_final_script.dir/rule
@@ -427,12 +427,12 @@ clean: zephyr/CMakeFiles/driver_validation_h_target.dir/clean
 zephyr/CMakeFiles/linker_script.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/linker_script.dir/build.make zephyr/CMakeFiles/linker_script.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/linker_script.dir/build.make zephyr/CMakeFiles/linker_script.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num= "Built target linker_script"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=54 "Built target linker_script"
 .PHONY : zephyr/CMakeFiles/linker_script.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/linker_script.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/linker_script.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/linker_script.dir/rule
@@ -469,7 +469,7 @@ all: zephyr/CMakeFiles/zephyr.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/zephyr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 22
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/zephyr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/zephyr.dir/rule
@@ -511,7 +511,7 @@ zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/drivers/entropy/CMakeFiles/drivers_
 zephyr/CMakeFiles/kernel_elf.dir/all: zephyr/kernel/CMakeFiles/kernel.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/kernel_elf.dir/build.make zephyr/CMakeFiles/kernel_elf.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/kernel_elf.dir/build.make zephyr/CMakeFiles/kernel_elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=43,44,45 "Built target kernel_elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=43,44 "Built target kernel_elf"
 .PHONY : zephyr/CMakeFiles/kernel_elf.dir/all
 
 # Include target in all.
@@ -548,12 +548,12 @@ clean: zephyr/CMakeFiles/kernel_elf.dir/clean
 zephyr/CMakeFiles/offsets_h.dir/all: zephyr/CMakeFiles/offsets.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/offsets_h.dir/build.make zephyr/CMakeFiles/offsets_h.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/offsets_h.dir/build.make zephyr/CMakeFiles/offsets_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num= "Built target offsets_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=56 "Built target offsets_h"
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/offsets_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/offsets_h.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/offsets_h.dir/rule
@@ -605,7 +605,7 @@ all: zephyr/CMakeFiles/zephyr_prebuilt.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/zephyr_prebuilt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/zephyr_prebuilt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/zephyr_prebuilt.dir/rule
@@ -632,12 +632,12 @@ clean: zephyr/CMakeFiles/zephyr_prebuilt.dir/clean
 zephyr/CMakeFiles/kobj_types_h_target.dir/all:
 	$(MAKE) -f zephyr/CMakeFiles/kobj_types_h_target.dir/build.make zephyr/CMakeFiles/kobj_types_h_target.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/kobj_types_h_target.dir/build.make zephyr/CMakeFiles/kobj_types_h_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num= "Built target kobj_types_h_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=45 "Built target kobj_types_h_target"
 .PHONY : zephyr/CMakeFiles/kobj_types_h_target.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/CMakeFiles/kobj_types_h_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/CMakeFiles/kobj_types_h_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/CMakeFiles/kobj_types_h_target.dir/rule
@@ -667,7 +667,7 @@ zephyr/CMakeFiles/offsets.dir/all: zephyr/CMakeFiles/driver_validation_h_target.
 zephyr/CMakeFiles/offsets.dir/all: zephyr/CMakeFiles/kobj_types_h_target.dir/all
 	$(MAKE) -f zephyr/CMakeFiles/offsets.dir/build.make zephyr/CMakeFiles/offsets.dir/depend
 	$(MAKE) -f zephyr/CMakeFiles/offsets.dir/build.make zephyr/CMakeFiles/offsets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=55,56 "Built target offsets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=55 "Built target offsets"
 .PHONY : zephyr/CMakeFiles/offsets.dir/all
 
 # Include target in all.
@@ -851,7 +851,7 @@ all: zephyr/arch/arm/core/CMakeFiles/arch__arm__core.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arm/core/CMakeFiles/arch__arm__core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/arch/arm/core/CMakeFiles/arch__arm__core.dir/rule
@@ -906,7 +906,7 @@ all: zephyr/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/arch/arm/core/cortex_m/CMakeFiles/arch__arm__core__cortex_m.dir/rule
@@ -961,7 +961,7 @@ all: zephyr/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu
 
 # Build rule for subdir invocation for target.
 zephyr/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/arch/arm/core/cortex_m/mpu/CMakeFiles/arch__arm__core__cortex_m__mpu.dir/rule
@@ -1079,7 +1079,7 @@ all: zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir/rule
@@ -1742,7 +1742,7 @@ zephyr/subsys/bluetooth/common/preinstall:
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/depend
 	$(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=57,58 "Built target subsys__bluetooth__common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=57,58,59 "Built target subsys__bluetooth__common"
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all
 
 # Include target in all.
@@ -1752,7 +1752,7 @@ all: zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/rule
@@ -1807,7 +1807,7 @@ all: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/rule
@@ -1852,7 +1852,7 @@ zephyr/subsys/bluetooth/controller/preinstall:
 zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all: zephyr/CMakeFiles/offsets_h.dir/all
 	$(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/depend
 	$(MAKE) -f zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build.make zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target subsys__bluetooth__controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target subsys__bluetooth__controller"
 .PHONY : zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/all
 
 # Include target in all.
@@ -1937,7 +1937,7 @@ all: zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/subsys/net/CMakeFiles/subsys__net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/subsys/net/CMakeFiles/subsys__net.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/subsys/net/CMakeFiles/subsys__net.dir/rule
@@ -2139,7 +2139,7 @@ all: zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir/rule
@@ -2194,7 +2194,7 @@ all: zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/drivers/serial/CMakeFiles/drivers__serial.dir/rule
@@ -2285,7 +2285,7 @@ all: zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir/rule
@@ -2376,7 +2376,7 @@ all: zephyr/kernel/CMakeFiles/kernel.dir/all
 
 # Build rule for subdir invocation for target.
 zephyr/kernel/CMakeFiles/kernel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 zephyr/kernel/CMakeFiles/kernel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles 0
 .PHONY : zephyr/kernel/CMakeFiles/kernel.dir/rule

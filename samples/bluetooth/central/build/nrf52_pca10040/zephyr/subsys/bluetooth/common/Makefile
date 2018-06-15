@@ -152,6 +152,33 @@ dummy.c.s:
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.s
 .PHONY : dummy.c.s
 
+log.obj: log.c.obj
+
+.PHONY : log.obj
+
+# target to build an object file
+log.c.obj:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj
+.PHONY : log.c.obj
+
+log.i: log.c.i
+
+.PHONY : log.i
+
+# target to preprocess a source file
+log.c.i:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.i
+.PHONY : log.c.i
+
+log.s: log.c.s
+
+.PHONY : log.s
+
+# target to generate assembly for a file
+log.c.s:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/build.make zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.s
+.PHONY : log.c.s
+
 rpa.obj: rpa.c.obj
 
 .PHONY : rpa.obj
@@ -191,6 +218,9 @@ help:
 	@echo "... dummy.obj"
 	@echo "... dummy.i"
 	@echo "... dummy.s"
+	@echo "... log.obj"
+	@echo "... log.i"
+	@echo "... log.s"
 	@echo "... rpa.obj"
 	@echo "... rpa.i"
 	@echo "... rpa.s"
