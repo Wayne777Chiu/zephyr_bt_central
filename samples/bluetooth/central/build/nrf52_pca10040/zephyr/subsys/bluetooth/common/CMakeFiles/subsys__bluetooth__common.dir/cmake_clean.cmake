@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj"
-  "CMakeFiles/subsys__bluetooth__common.dir/log.c.obj"
   "CMakeFiles/subsys__bluetooth__common.dir/rpa.c.obj"
   "libsubsys__bluetooth__common.pdb"
   "libsubsys__bluetooth__common.a"
