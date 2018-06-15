@@ -12,69 +12,34 @@ Disassembly of section text:
 GEN_ABS_SYM_BEGIN(isr_tables_syms)
 GEN_ABSOLUTE_SYM(__ISR_LIST_SIZEOF, sizeof(struct _isr_list));
        0:	20002ce8 	.word	0x20002ce8
-static struct device *uart_dev;
 
-static int console_irq_input_hook(u8_t c);
-
-static void uart_isr(struct device *dev)
+#ifdef CONFIG_ERRNO
+int *__errno(void)
 {
+	return &_current->errno_var;
+}
        4:	00001af5 	.word	0x00001af5
-static inline int _impl_uart_irq_update(struct device *dev)
-{
-	const struct uart_driver_api *api =
-		(const struct uart_driver_api *)dev->driver_api;
-
-	if (api->irq_update) {
        8:	00001b49 	.word	0x00001b49
-	if (api->irq_rx_ready) {
        c:	0000198d 	.word	0x0000198d
       10:	0000198d 	.word	0x0000198d
-		return api->irq_rx_ready(dev);
       14:	0000198d 	.word	0x0000198d
-	}
-}
-
-static int console_irq_input_hook(u8_t c)
-{
-	int rx_next = (rx_put + 1) & (CONFIG_CONSOLE_GETCHAR_BUFSIZE - 1);
       18:	0000198d 	.word	0x0000198d
-		console_putchar('~');
-		console_putchar('\n');
-		return 1;
-	}
-
-	rx_ringbuf[rx_put] = c;
       1c:	0000198d 	.word	0x0000198d
-	if (api->fifo_read) {
       20:	0000198d 	.word	0x0000198d
-		return api->fifo_read(dev, rx_data, size);
       24:	0000198d 	.word	0x0000198d
       28:	0000198d 	.word	0x0000198d
       2c:	00001595 	.word	0x00001595
-	int rx_next = (rx_put + 1) & (CONFIG_CONSOLE_GETCHAR_BUFSIZE - 1);
       30:	0000198d 	.word	0x0000198d
       34:	0000198d 	.word	0x0000198d
       38:	00001551 	.word	0x00001551
-	if (rx_next == rx_get) {
       3c:	0000198d 	.word	0x0000198d
 
 00000040 <_irq_vector_table>:
-		console_putchar('~');
       40:	00001ab9 0001110b 00001ab9 00001ab9     ................
-
-K_SYSCALL_DECLARE3_VOID(K_SYSCALL_K_SEM_INIT, k_sem_init, struct k_sem *, sem, unsigned int, initial_count, unsigned int, limit);
-
-K_SYSCALL_DECLARE2(K_SYSCALL_K_SEM_TAKE, k_sem_take, int, struct k_sem *, sem, s32_t, timeout);
-
-K_SYSCALL_DECLARE1_VOID(K_SYSCALL_K_SEM_GIVE, k_sem_give, struct k_sem *, sem);
       50:	00001ab9 00001ab9 00001ab9 00001ab9     ................
-	if (api->irq_tx_ready) {
       60:	00001ab9 00001ab9 00001ab9 00001ab9     ................
-		if (tx_get == tx_put) {
       70:	00001ab9 00001ab9 00001ab9 00001ab9     ................
-}
       80:	00001ab9 00001ab9 00001ab9 00001ab9     ................
-		return api->fifo_fill(dev, tx_data, size);
       90:	00001ab9 00001ab9 00001ab9 00001ab9     ................
       a0:	00001ab9 00001ab9 00001ab9 00001ab9     ................
       b0:	00001ab9 00001ab9 00001ab9 00001ab9     ................
@@ -960,8 +925,16 @@ FUNC_NORETURN void _thread_entry(k_thread_entry_t entry,
 	entry(p1, p2, p3);
      8a0:	461a      	mov	r2, r3
      8a2:	47a0      	blx	r4
+
+K_SYSCALL_DECLARE0_VOID(K_SYSCALL_K_YIELD, k_yield);
+
+K_SYSCALL_DECLARE1_VOID(K_SYSCALL_K_WAKEUP, k_wakeup, k_tid_t, thread);
+
 K_SYSCALL_DECLARE0(K_SYSCALL_K_CURRENT_GET, k_current_get, k_tid_t);
      8a4:	f013 fbb2 	bl	1400c <_impl_k_current_get>
+
+K_SYSCALL_DECLARE1(K_SYSCALL_K_THREAD_CANCEL, k_thread_cancel, int, k_tid_t, thread);
+
 K_SYSCALL_DECLARE1_VOID(K_SYSCALL_K_THREAD_ABORT, k_thread_abort, k_tid_t, thread);
      8a8:	f001 f8e0 	bl	1a6c <_impl_k_thread_abort>
 
@@ -2298,6 +2271,11 @@ static inline atomic_val_t atomic_get(const atomic_t *target)
     1030:	00014c40 	.word	0x00014c40
 
 00001034 <uart_poll_out>:
+						unsigned char out_char)
+{
+	const struct uart_driver_api *api =
+		(const struct uart_driver_api *)dev->driver_api;
+
 	return api->poll_out(dev, out_char);
     1034:	6843      	ldr	r3, [r0, #4]
     1036:	685b      	ldr	r3, [r3, #4]
@@ -5602,6 +5580,11 @@ K_SYSCALL_DECLARE0(K_SYSCALL_K_CURRENT_GET, k_current_get, k_tid_t);
     20b6:	4628      	mov	r0, r5
     20b8:	f010 fdc0 	bl	12c3c <net_buf_id>
     20bc:	eb04 00c0 	add.w	r0, r4, r0, lsl #3
+
+K_SYSCALL_DECLARE3_VOID(K_SYSCALL_K_SEM_INIT, k_sem_init, struct k_sem *, sem, unsigned int, initial_count, unsigned int, limit);
+
+K_SYSCALL_DECLARE2(K_SYSCALL_K_SEM_TAKE, k_sem_take, int, struct k_sem *, sem, s32_t, timeout);
+
 K_SYSCALL_DECLARE1_VOID(K_SYSCALL_K_SEM_GIVE, k_sem_give, struct k_sem *, sem);
     20c0:	6840      	ldr	r0, [r0, #4]
 }
@@ -5617,7 +5600,7 @@ K_SYSCALL_DECLARE1_VOID(K_SYSCALL_K_SEM_GIVE, k_sem_give, struct k_sem *, sem);
     20e4:	00015fe6 	.word	0x00015fe6
     20e8:	2000027c 	.word	0x2000027c
     20ec:	0001602b 	.word	0x0001602b
-    20f0:	20003f8c 	.word	0x20003f8c
+    20f0:	20003f74 	.word	0x20003f74
 
 000020f4 <atomic_test_bit>:
  *
@@ -5724,7 +5707,7 @@ static inline void bt_buf_set_type(struct net_buf *buf, enum bt_buf_type type)
     21aa:	bf00      	nop
     21ac:	00014b99 	.word	0x00014b99
     21b0:	00015558 	.word	0x00015558
-    21b4:	20003f8c 	.word	0x20003f8c
+    21b4:	20003f74 	.word	0x20003f74
     21b8:	00015588 	.word	0x00015588
     21bc:	2000027c 	.word	0x2000027c
     21c0:	000150ee 	.word	0x000150ee
@@ -9894,7 +9877,7 @@ struct net_buf *bt_buf_get_rx(enum bt_buf_type type, s32_t timeout)
 }
     423c:	4620      	mov	r0, r4
     423e:	bd38      	pop	{r3, r4, r5, pc}
-    4240:	20003fac 	.word	0x20003fac
+    4240:	20003f94 	.word	0x20003f94
 
 00004244 <bt_buf_get_cmd_complete>:
 
@@ -11713,7 +11696,7 @@ struct net_buf *bt_conn_create_pdu(struct net_buf_pool *pool, size_t reserve)
     4d86:	4620      	mov	r0, r4
     4d88:	bd38      	pop	{r3, r4, r5, pc}
     4d8a:	bf00      	nop
-    4d8c:	20003f4c 	.word	0x20003f4c
+    4d8c:	20003f34 	.word	0x20003f34
 
 00004d90 <create_frag.isra.8>:
 static struct net_buf *create_frag(struct bt_conn *conn, struct net_buf *buf)
@@ -11769,7 +11752,7 @@ static struct net_buf *create_frag(struct bt_conn *conn, struct net_buf *buf)
     4dee:	b286      	uxth	r6, r0
     4df0:	e7ef      	b.n	4dd2 <create_frag.isra.8+0x42>
     4df2:	bf00      	nop
-    4df4:	20003f6c 	.word	0x20003f6c
+    4df4:	20003f54 	.word	0x20003f54
     4df8:	20003a68 	.word	0x20003a68
 
 00004dfc <bt_conn_process_tx>:
@@ -20059,7 +20042,7 @@ K_SYSCALL_DECLARE0_VOID(K_SYSCALL_K_YIELD, k_yield);
 				net_buf_unref(buf);
     81da:	f00a fded 	bl	12db8 <net_buf_unref>
     81de:	e7ef      	b.n	81c0 <recv_thread+0x84>
-    81e0:	20003f3c 	.word	0x20003f3c
+    81e0:	20003f24 	.word	0x20003f24
     81e4:	00014b99 	.word	0x00014b99
     81e8:	00015f55 	.word	0x00015f55
     81ec:	00016ded 	.word	0x00016ded
@@ -20198,8 +20181,8 @@ K_SYSCALL_DECLARE2(K_SYSCALL_K_SEM_TAKE, k_sem_take, int, struct k_sem *, sem, s
     82e8:	4628      	mov	r0, r5
     82ea:	f00b fec6 	bl	1407a <_impl_k_sem_take>
     82ee:	e7d8      	b.n	82a2 <prio_recv_thread+0x6>
-    82f0:	20003f24 	.word	0x20003f24
-    82f4:	20003f3c 	.word	0x20003f3c
+    82f0:	20003f0c 	.word	0x20003f0c
+    82f4:	20003f24 	.word	0x20003f24
 
 000082f8 <hci_driver_open>:
 {
@@ -20255,7 +20238,7 @@ K_SYSCALL_DECLARE2(K_SYSCALL_K_SEM_TAKE, k_sem_take, int, struct k_sem *, sem, s
     835c:	f00c f862 	bl	14424 <_impl_k_thread_create>
     8360:	e7db      	b.n	831a <hci_driver_open+0x22>
     8362:	bf00      	nop
-    8364:	20003f24 	.word	0x20003f24
+    8364:	20003f0c 	.word	0x20003f0c
     8368:	00014b99 	.word	0x00014b99
     836c:	00015f55 	.word	0x00015f55
     8370:	00016e09 	.word	0x00016e09
@@ -43275,7 +43258,7 @@ static void fixed_data_unref(struct net_buf *buf, u8_t *data)
    12c30:	4b01      	ldr	r3, [pc, #4]	; (12c38 <net_buf_pool_get+0x8>)
    12c32:	eb03 1040 	add.w	r0, r3, r0, lsl #5
    12c36:	4770      	bx	lr
-   12c38:	20003f4c 	.word	0x20003f4c
+   12c38:	20003f34 	.word	0x20003f34
 
 00012c3c <net_buf_id>:
 	struct net_buf_pool *pool = net_buf_pool_get(buf->pool_id);
@@ -43292,7 +43275,7 @@ static void fixed_data_unref(struct net_buf *buf, u8_t *data)
 }
    12c4c:	4358      	muls	r0, r3
    12c4e:	4770      	bx	lr
-   12c50:	20003f4c 	.word	0x20003f4c
+   12c50:	20003f34 	.word	0x20003f34
    12c54:	aaaaaaab 	.word	0xaaaaaaab
 
 00012c58 <fixed_data_alloc>:
@@ -43321,7 +43304,7 @@ static void fixed_data_unref(struct net_buf *buf, u8_t *data)
 }
    12c7a:	fb02 3000 	mla	r0, r2, r0, r3
    12c7e:	bd10      	pop	{r4, pc}
-   12c80:	20003f4c 	.word	0x20003f4c
+   12c80:	20003f34 	.word	0x20003f34
 
 00012c84 <net_buf_alloc_len>:
 					int line)
@@ -43486,7 +43469,7 @@ K_SYSCALL_DECLARE2(K_SYSCALL_K_QUEUE_GET, k_queue_get, void *, struct k_queue *,
    12d50:	60a3      	str	r3, [r4, #8]
 	return buf;
    12d52:	e7ef      	b.n	12d34 <net_buf_alloc_len+0xb0>
-   12d54:	20003f4c 	.word	0x20003f4c
+   12d54:	20003f34 	.word	0x20003f34
 
 00012d58 <net_buf_alloc_fixed>:
 				       line);
@@ -43681,7 +43664,7 @@ void net_buf_unref(struct net_buf *buf)
    12e06:	eb05 1040 	add.w	r0, r5, r0, lsl #5
    12e0a:	f000 fe4e 	bl	13aaa <k_queue_prepend>
    12e0e:	e7f7      	b.n	12e00 <net_buf_unref+0x48>
-   12e10:	20003f4c 	.word	0x20003f4c
+   12e10:	20003f34 	.word	0x20003f34
 
 00012e14 <net_buf_ref>:
 {
@@ -45525,7 +45508,7 @@ void _data_copy(void)
    13722:	1a12      	subs	r2, r2, r0
    13724:	f7ee ba76 	b.w	1c14 <memcpy>
    13728:	20003a28 	.word	0x20003a28
-   1372c:	20003fcc 	.word	0x20003fcc
+   1372c:	20003fb4 	.word	0x20003fb4
    13730:	00018934 	.word	0x00018934
 
 00013734 <bg_thread_main>:
