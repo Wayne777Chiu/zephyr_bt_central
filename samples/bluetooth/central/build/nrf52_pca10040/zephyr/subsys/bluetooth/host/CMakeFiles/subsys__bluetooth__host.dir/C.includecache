@@ -648,10 +648,6 @@ net/buf.h
 bluetooth/buf.h
 -
 
-../../../../../include/drivers/console/uart_pipe.h
-stdlib.h
--
-
 ../../../../../include/drivers/loapic.h
 
 ../../../../../include/drivers/mvic.h
@@ -660,20 +656,10 @@ arch/cpu.h
 zephyr/types.h
 -
 
-../../../../../include/drivers/pci/pci.h
-
-../../../../../include/drivers/pci/pci_mgr.h
-
 ../../../../../include/drivers/sysapic.h
 drivers/loapic.h
 -
 zephyr/types.h
--
-
-../../../../../include/init.h
-device.h
--
-toolchain.h
 -
 
 ../../../../../include/irq.h
@@ -882,20 +868,6 @@ toolchain/gcc.h
 xtensa/config/core.h
 -
 
-../../../../../include/uart.h
-errno.h
--
-stddef.h
--
-device.h
--
-drivers/pci/pci.h
--
-drivers/pci/pci_mgr.h
--
-syscalls/uart.h
--
-
 ../../../../../include/zephyr.h
 kernel.h
 -
@@ -919,10 +891,6 @@ stdarg.h
 -
 bits/restrict.h
 -
-stddef.h
--
-
-../../../../../lib/libc/minimal/include/stdlib.h
 stddef.h
 -
 
@@ -1200,30 +1168,6 @@ l2cap_internal.h
 bluetooth/l2cap.h
 -
 
-/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.c
-zephyr/types.h
--
-stdbool.h
--
-zephyr.h
--
-device.h
--
-init.h
--
-drivers/console/uart_pipe.h
--
-misc/byteorder.h
--
-misc/printk.h
--
-uart.h
--
-bluetooth/buf.h
--
-monitor.h
-/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.h
-
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.h
 
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/settings.h
@@ -1301,12 +1245,6 @@ syscall.h
 -
 
 zephyr/include/generated/syscalls/kernel.h
-syscall_list.h
--
-syscall_macros.h
--
-
-zephyr/include/generated/syscalls/uart.h
 syscall_list.h
 -
 syscall_macros.h
