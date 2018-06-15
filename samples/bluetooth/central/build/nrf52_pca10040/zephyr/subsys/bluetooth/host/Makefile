@@ -260,6 +260,33 @@ l2cap.c.s:
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.s
 .PHONY : l2cap.c.s
 
+monitor.obj: monitor.c.obj
+
+.PHONY : monitor.obj
+
+# target to build an object file
+monitor.c.obj:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj
+.PHONY : monitor.c.obj
+
+monitor.i: monitor.c.i
+
+.PHONY : monitor.i
+
+# target to preprocess a source file
+monitor.c.i:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.i
+.PHONY : monitor.c.i
+
+monitor.s: monitor.c.s
+
+.PHONY : monitor.s
+
+# target to generate assembly for a file
+monitor.c.s:
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.s
+.PHONY : monitor.c.s
+
 smp_null.obj: smp_null.c.obj
 
 .PHONY : smp_null.obj
@@ -338,6 +365,9 @@ help:
 	@echo "... l2cap.obj"
 	@echo "... l2cap.i"
 	@echo "... l2cap.s"
+	@echo "... monitor.obj"
+	@echo "... monitor.i"
+	@echo "... monitor.s"
 	@echo "... smp_null.obj"
 	@echo "... smp_null.i"
 	@echo "... smp_null.s"
