@@ -1,6 +1,6 @@
 gpio_nrf5.c:274:12:gpio_nrf5_read	0	static
 gpio_nrf5.c:287:12:gpio_nrf5_write	0	static
-gpio_nrf5.c:304:12:gpio_nrf5_manage_callback	8	static
+gpio_nrf5.c:304:12:gpio_nrf5_manage_callback	0	static
 gpio_nrf5.c:153:12:gpiote_find_channel.isra.4	12	static
 gpio_nrf5.c:314:12:gpio_nrf5_enable_callback	16	static
 gpio_nrf5.c:340:12:gpio_nrf5_disable_callback	16	static

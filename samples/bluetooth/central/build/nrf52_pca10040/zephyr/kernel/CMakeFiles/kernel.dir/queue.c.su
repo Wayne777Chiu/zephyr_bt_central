@@ -1,3 +1,4 @@
+queue.c:68:12:init_queue_module	8	static
 queue.c:145:12:queue_insert	24	static
 queue.c:33:7:z_queue_node_peek	8	static
 queue.c:84:6:_impl_k_queue_init	0	static

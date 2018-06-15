@@ -1,3 +1,4 @@
+sem.c:41:12:init_sem_module	8	static
 sem.c:57:6:_impl_k_sem_init	0	static
 sem.c:120:6:_sem_give_non_preemptible	16	static
 sem.c:133:6:_impl_k_sem_give	16	static

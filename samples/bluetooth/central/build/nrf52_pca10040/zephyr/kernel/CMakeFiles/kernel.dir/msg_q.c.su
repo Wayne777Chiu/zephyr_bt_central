@@ -1,3 +1,4 @@
+msg_q.c:34:12:init_msgq_module	8	static
 ksched.h:222:20:_ready_thread	0	static
 msg_q.c:50:6:k_msgq_init	0	static
 msg_q.c:67:5:_impl_k_msgq_alloc_init	24	static

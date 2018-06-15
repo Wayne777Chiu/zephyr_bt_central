@@ -1,5 +1,5 @@
 nrf5_power_clock.c:103:12:_m16src_stop	8	static
 nrf5_power_clock.c:356:12:_clock_control_init	8	static
 nrf5_power_clock.c:23:12:_m16src_start	24	static
-nrf5_power_clock.c:251:13:_power_clock_isr	24	static
 nrf5_power_clock.c:144:12:_k32src_start	24	static
+nrf5_power_clock.c:251:13:_power_clock_isr	24	static

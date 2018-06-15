@@ -7,7 +7,7 @@ hci_core.c:729:13:update_conn_param	0	static
 hci_core.c:2931:13:hci_cmd_done	48	static
 atomic.h:327:19:atomic_test_bit	0	static
 hci_core.c:186:17:bt_hci_cmd_create	32	static
-hci_core.c:243:5:bt_hci_cmd_send_sync	40	static
+hci_core.c:243:5:bt_hci_cmd_send_sync	56	static
 hci_core.c:428:12:set_le_scan_enable	16	static
 hci_core.c:333:12:set_random_address	16	static
 hci_core.c:412:12:le_set_private_addr	16	static
