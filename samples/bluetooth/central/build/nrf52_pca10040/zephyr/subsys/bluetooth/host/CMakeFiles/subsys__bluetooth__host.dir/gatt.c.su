@@ -3,9 +3,9 @@ gatt.c:451:13:find_next	0	static
 gatt.c:496:13:gatt_ccc_changed	8	static
 gatt.c:649:13:gatt_indicate_rsp	4	static
 gatt.c:335:13:get_service_handles	24	static
-gatt.c:98:12:gatt_register	32	static
-gatt.c:624:12:gatt_notify	40	static
-gatt.c:683:12:gatt_indicate	56	static
+gatt.c:624:12:gatt_notify	32	static
+gatt.c:683:12:gatt_indicate	40	static
+gatt.c:98:12:gatt_register	16	static
 gatt.c:155:13:sc_indicate_rsp	0	static
 gatt.c:61:16:read_appearance	16	static
 gatt.c:231:13:sc_indicate.constprop	8	static
@@ -13,8 +13,8 @@ gatt.c:893:13:connected_cb	24	static
 gatt.c:924:13:disconnected_cb	40	static
 gatt.c:54:16:read_name	24	static
 gatt.c:470:9:bt_gatt_attr_read_ccc	40	static
+gatt.c:516:9:bt_gatt_attr_write_ccc	56	static
 gatt.c:312:9:bt_gatt_attr_read_service	24	static
-gatt.c:516:9:bt_gatt_attr_write_ccc	64	static
 gatt.c:752:13:notify_cb	48	static
 gatt.c:199:6:bt_gatt_init	8	static
 gatt.c:253:5:bt_gatt_service_register	24	static
@@ -23,7 +23,7 @@ gatt.c:292:9:bt_gatt_attr_read	8	static
 gatt.c:427:6:bt_gatt_foreach_attr	32	static
 gatt.c:351:9:bt_gatt_attr_read_included	32	static
 gatt.c:460:22:bt_gatt_attr_next	16	static
-gatt.c:390:9:bt_gatt_attr_read_chrc	72	static
+gatt.c:390:9:bt_gatt_attr_read_chrc	48	static
 gatt.c:584:9:bt_gatt_attr_read_cep	24	static
 gatt.c:595:9:bt_gatt_attr_read_cud	24	static
 gatt.c:605:9:bt_gatt_attr_read_cpf	16	static

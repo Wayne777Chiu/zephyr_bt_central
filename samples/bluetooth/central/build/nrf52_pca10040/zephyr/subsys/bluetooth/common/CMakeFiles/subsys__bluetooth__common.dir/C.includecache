@@ -872,20 +872,6 @@ logging/sys_log.h
 zephyr.h
 -
 
-/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/common/log.c
-stddef.h
--
-zephyr/types.h
--
-zephyr.h
--
-misc/util.h
--
-bluetooth/bluetooth.h
--
-bluetooth/hci.h
--
-
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/common/rpa.c
 zephyr.h
 -

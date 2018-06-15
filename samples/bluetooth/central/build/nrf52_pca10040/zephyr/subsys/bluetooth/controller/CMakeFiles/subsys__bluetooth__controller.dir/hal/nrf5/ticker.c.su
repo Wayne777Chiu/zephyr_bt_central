@@ -1,3 +1,3 @@
-ticker.c:37:6:hal_ticker_instance0_caller_id_get	16	static
-ticker.c:49:6:hal_ticker_instance0_sched	16	static
+ticker.c:37:6:hal_ticker_instance0_caller_id_get	0	static
+ticker.c:49:6:hal_ticker_instance0_sched	4	static
 ticker.c:171:6:hal_ticker_instance0_trigger_set	0	static
