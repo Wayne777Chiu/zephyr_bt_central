@@ -1,0 +1,7 @@
+sys_clock.c:62:7:_tick_get_32	0	static
+sys_clock.c:72:7:_impl_k_uptime_get_32	0	static
+sys_clock.c:98:7:_tick_get	0	static
+sys_clock.c:119:7:_impl_k_uptime_get	8	static
+sys_clock.c:139:7:k_uptime_delta	8	static
+sys_clock.c:150:7:k_uptime_delta_32	8	static
+sys_clock.c:318:6:_nano_sys_clock_tick_announce	56	static

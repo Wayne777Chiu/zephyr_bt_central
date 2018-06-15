@@ -1,0 +1,7 @@
+ecb.c:23:13:do_ecb	16	static
+ecb.c:164:13:ecb_cb	0	static
+ecb.c:53:6:ecb_encrypt_be	64	static
+ecb.c:66:6:ecb_encrypt	64	static
+ecb.c:87:7:ecb_encrypt_nonblocking	16	static
+ecb.c:132:6:isr_ecb	24	static
+ecb.c:177:7:ecb_ut	160	static

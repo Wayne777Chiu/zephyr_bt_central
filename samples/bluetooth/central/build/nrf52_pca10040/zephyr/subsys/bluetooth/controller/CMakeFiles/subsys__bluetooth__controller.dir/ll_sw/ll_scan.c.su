@@ -1,0 +1,2 @@
+ll_scan.c:32:7:ll_scan_params_set	32	static
+ll_scan.c:60:7:ll_scan_enable	40	static

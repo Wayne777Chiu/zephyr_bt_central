@@ -1,0 +1,12 @@
+printk.c:44:12:_nop_char_out	0	static
+printk.c:259:12:char_out	0	static
+printk.c:402:13:_printk_dec_ulong	56	static
+printk.c:447:12:str_out	12	static
+printk.c:63:6:__printk_hook_install	0	static
+printk.c:76:7:__printk_get_hook	0	static
+printk.c:90:6:_vprintk	72	static
+printk.c:288:5:vprintk	16	static
+printk.c:298:6:_impl_k_str_out	16	static
+printk.c:335:5:printk	16	static
+printk.c:463:5:snprintk	32	static
+printk.c:479:5:vsnprintk	32	static

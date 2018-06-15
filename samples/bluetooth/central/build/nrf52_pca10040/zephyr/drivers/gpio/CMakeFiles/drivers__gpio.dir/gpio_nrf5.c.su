@@ -1,0 +1,12 @@
+gpio_nrf5.c:274:12:gpio_nrf5_read	0	static
+gpio_nrf5.c:287:12:gpio_nrf5_write	0	static
+gpio_nrf5.c:304:12:gpio_nrf5_manage_callback	8	static
+gpio_nrf5.c:153:12:gpiote_find_channel.isra.4	12	static
+gpio_nrf5.c:314:12:gpio_nrf5_enable_callback	16	static
+gpio_nrf5.c:340:12:gpio_nrf5_disable_callback	16	static
+gpio_nrf5.c:172:12:gpio_nrf5_config	24	static
+gpio_nrf5.c:481:12:gpio_nrf5_P0_init	8	static
+gpio_nrf5.c:378:13:gpio_nrf5_port_isr	16	static
+gpio_nrf5.c:462:6:nrf_gpiote_interrupt_enable	0	static
+gpio_nrf5.c:468:6:nrf_gpiote_interrupt_disable	0	static
+gpio_nrf5.c:474:6:nrf_gpiote_clear_port_event	0	static

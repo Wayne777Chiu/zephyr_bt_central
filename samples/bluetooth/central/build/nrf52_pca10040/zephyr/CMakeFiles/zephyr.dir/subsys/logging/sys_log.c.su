@@ -1,0 +1,2 @@
+sys_log.c:9:6:syslog_hook_default	0	static
+sys_log.c:16:6:syslog_hook_install	0	static

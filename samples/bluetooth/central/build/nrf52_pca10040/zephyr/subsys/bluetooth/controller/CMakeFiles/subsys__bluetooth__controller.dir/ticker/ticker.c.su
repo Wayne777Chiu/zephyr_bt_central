@@ -1,0 +1,16 @@
+ticker.c:263:14:ticker_dequeue	20	static
+ticker.c:415:13:ticks_to_expire_prep	12	static
+ticker.c:477:13:ticker_job_op_cb	0	static
+ticker.c:319:6:ticker_worker	32	static
+ticker.c:1043:6:ticker_job	120	static
+ticker.c:1154:7:ticker_init	20	static
+ticker.c:1203:7:ticker_is_initialized	0	static
+ticker.c:1208:6:ticker_trigger	4	static
+ticker.c:1223:7:ticker_start	32	static
+ticker.c:1268:7:ticker_update	32	static
+ticker.c:1310:7:ticker_stop	32	static
+ticker.c:1344:7:ticker_next_slot_get	32	static
+ticker.c:1382:7:ticker_job_idle_get	32	static
+ticker.c:1416:6:ticker_job_sched	24	static
+ticker.c:1424:7:ticker_ticks_now_get	0	static
+ticker.c:1429:7:ticker_ticks_diff_get	0	static

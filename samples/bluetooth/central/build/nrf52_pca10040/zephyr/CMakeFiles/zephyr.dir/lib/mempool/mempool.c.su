@@ -1,0 +1,8 @@
+mempool.c:31:12:get_bit_ptr	8	static
+mempool.c:42:13:set_free_bit	16	static
+mempool.c:50:13:clear_free_bit	16	static
+mempool.c:79:6:_sys_mem_pool_base_init	32	static
+mempool.c:221:5:_sys_mem_pool_block_alloc	88	dynamic
+mempool.c:284:6:_sys_mem_pool_block_free	64	dynamic
+mempool.c:308:7:sys_mem_pool_alloc	40	static
+mempool.c:333:6:sys_mem_pool_free	16	static

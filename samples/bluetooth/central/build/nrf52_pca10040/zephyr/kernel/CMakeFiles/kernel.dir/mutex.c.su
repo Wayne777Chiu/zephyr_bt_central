@@ -1,0 +1,4 @@
+ksched.h:242:20:_sched_lock	8	static
+mutex.c:70:6:_impl_k_mutex_init	0	static
+mutex.c:116:5:_impl_k_mutex_lock	16	static
+mutex.c:201:6:_impl_k_mutex_unlock	16	static

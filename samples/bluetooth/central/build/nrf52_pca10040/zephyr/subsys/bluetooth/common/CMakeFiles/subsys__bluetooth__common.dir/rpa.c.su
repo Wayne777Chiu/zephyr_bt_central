@@ -1,0 +1,3 @@
+rpa.c:30:12:ah	32	static
+rpa.c:58:7:bt_rpa_irk_matches	16	static
+rpa.c:75:5:bt_rpa_create	16	static

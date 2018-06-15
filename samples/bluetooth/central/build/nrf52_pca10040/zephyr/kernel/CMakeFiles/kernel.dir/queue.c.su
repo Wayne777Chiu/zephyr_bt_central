@@ -1,0 +1,12 @@
+queue.c:145:12:queue_insert	24	static
+queue.c:33:7:z_queue_node_peek	8	static
+queue.c:84:6:_impl_k_queue_init	0	static
+queue.c:122:6:_impl_k_queue_cancel_wait	8	static
+queue.c:185:6:k_queue_insert	0	static
+queue.c:190:6:k_queue_append	0	static
+queue.c:195:6:k_queue_prepend	0	static
+queue.c:200:5:_impl_k_queue_alloc_append	0	static
+queue.c:216:5:_impl_k_queue_alloc_prepend	0	static
+queue.c:231:6:k_queue_append_list	16	static
+queue.c:256:6:k_queue_merge_slist	8	static
+queue.c:315:7:_impl_k_queue_get	48	static
