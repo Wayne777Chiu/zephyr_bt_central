@@ -1,5 +1,0 @@
-sprintf.c:20:12:sprintf_out	0	static
-sprintf.c:30:5:snprintf	24	static
-sprintf.c:54:5:sprintf	20	static
-sprintf.c:72:5:vsnprintf	24	static
-sprintf.c:92:5:vsprintf	16	static

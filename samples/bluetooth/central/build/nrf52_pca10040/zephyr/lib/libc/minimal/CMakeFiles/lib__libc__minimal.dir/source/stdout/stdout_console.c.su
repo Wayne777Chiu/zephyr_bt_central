@@ -1,6 +1,0 @@
-stdout_console.c:11:12:_stdout_hook_default	0	static
-stdout_console.c:20:6:__stdout_hook_install	0	static
-stdout_console.c:25:5:fputc	0	static
-stdout_console.c:30:5:fputs	16	static
-stdout_console.c:46:8:fwrite	32	static
-stdout_console.c:74:5:puts	8	static

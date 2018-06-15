@@ -1,7 +1,0 @@
-ll.c:89:13:rtc0_nrf5_isr	16	static
-ll.c:114:13:swi4_nrf5_isr	0	static
-ll.c:81:87:radio_nrf5_isr	8	static
-ll.c:72:6:radio_active_callback	0	static
-ll.c:76:6:radio_event_callback	0	static
-ll.c:119:5:ll_init	48	static
-ll.c:192:6:ll_timeslice_ticker_id_get	0	static

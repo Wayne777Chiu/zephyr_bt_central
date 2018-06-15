@@ -381,6 +381,8 @@ CMAKE_COMMAND:INTERNAL=/home/wewise/cmake/cmake-3.8.2-Linux-x86_64/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/home/wewise/cmake/cmake-3.8.2-Linux-x86_64/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/home/wewise/cmake/cmake-3.8.2-Linux-x86_64/bin/ctest
+//ADVANCED property for variable: CMAKE_CXX_COMPILER
+CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 // 
 CMAKE_CXX_COMPILER:INTERNAL=/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
@@ -498,8 +500,6 @@ GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //Available runners
 ZEPHYR_RUNNERS:INTERNAL=nrfjprog;jlink
-//Test check_fstack_usage_C__nostartfiles__nostdlib__isystem___opt_zephyr_sdk_sysroots_x86_64_pokysdk_linux_usr_lib_arm_zephyr_eabi_gcc_arm_zephyr_eabi_6_2_0_include___isystem___opt_zephyr_sdk_sysroots_x86_64_pokysdk_linux_usr_lib_arm_zephyr_eabi_gcc_arm_zephyr_eabi_6_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files
-check_fstack_usage_C__nostartfiles__nostdlib__isystem___opt_zephyr_sdk_sysroots_x86_64_pokysdk_linux_usr_lib_arm_zephyr_eabi_gcc_arm_zephyr_eabi_6_2_0_include___isystem___opt_zephyr_sdk_sysroots_x86_64_pokysdk_linux_usr_lib_arm_zephyr_eabi_gcc_arm_zephyr_eabi_6_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files:INTERNAL=1
 //Test toolchain_is_ok
 toolchain_is_ok:INTERNAL=1
 

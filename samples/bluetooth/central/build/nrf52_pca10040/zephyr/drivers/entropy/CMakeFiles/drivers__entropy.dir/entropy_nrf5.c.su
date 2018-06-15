@@ -1,7 +1,0 @@
-entropy_nrf5.c:93:20:get	24	static
-entropy_nrf5.c:174:12:isr	12	static
-entropy_nrf5.c:274:12:entropy_nrf5_get_entropy_isr	16	static
-entropy_nrf5.c:309:12:entropy_nrf5_init	16	static
-entropy_nrf5.c:213:13:isr_rand	16	static
-entropy_nrf5.c:246:12:entropy_nrf5_get_entropy	32	static
-entropy_nrf5.c:345:6:entropy_nrf_get_entropy_isr	0	static

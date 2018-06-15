@@ -1,4 +1,0 @@
-device.c:46:6:_sys_device_do_config_level	16	static
-device.c:59:16:device_get_binding	16	static
-device.c:125:6:device_busy_set	0	static
-device.c:135:6:device_busy_clear	0	static

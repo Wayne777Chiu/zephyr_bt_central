@@ -1837,19 +1837,6 @@ zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj: zephyr/include/generated/syscall
 zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj: zephyr/include/generated/syscall_macros.h
 zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj: zephyr/include/generated/syscalls/kernel.h
 
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../include/logging/sys_log.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../include/misc/printk.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../include/toolchain.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../include/toolchain/common.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../include/toolchain/gcc.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../include/toolchain/xcc.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../lib/libc/minimal/include/inttypes.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../subsys/logging/sys_log.c
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stdarg.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stddef.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stdint-gcc.h
-zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stdint.h
-
 zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj: ../../../../../arch/arm/include/kernel_arch_thread.h
 zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj: ../../../../../arch/arm/soc/nordic_nrf/include/nrf_common.h
 zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj: ../../../../../arch/arm/soc/nordic_nrf/nrf52/soc.h

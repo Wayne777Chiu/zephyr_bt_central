@@ -5,14 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/common/dummy.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/dummy.c.obj"
-  "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/common/log.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/log.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/common/rpa.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir/rpa.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "BUILD_VERSION=v1.12.0-165-gdf44633"
+  "BUILD_VERSION=v1.12.0-166-g73e271c"
   "KERNEL"
   "NRF52832_XXAA"
   "_FORTIFY_SOURCE=2"

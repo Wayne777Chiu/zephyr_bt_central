@@ -1,9 +1,0 @@
-mem.c:15:6:mem_init	32	static
-mem.c:40:7:mem_acquire	24	static
-mem.c:68:6:mem_release	16	static
-mem.c:87:7:mem_free_count_get	0	static
-mem.c:100:7:mem_get	0	static
-mem.c:105:7:mem_index_get	0	static
-mem.c:110:6:mem_rcopy	8	static
-mem.c:118:6:mem_nz	0	static
-mem.c:129:7:mem_ut	152	static

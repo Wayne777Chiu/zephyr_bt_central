@@ -15,7 +15,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ctrl.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ctrl.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_addr.c.obj"
-  "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_adv.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_adv.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_filter.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_filter.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_master.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_master.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/controller/ll_sw/ll_scan.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/controller/CMakeFiles/subsys__bluetooth__controller.dir/ll_sw/ll_scan.c.obj"
@@ -30,7 +29,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "BUILD_VERSION=v1.12.0-165-gdf44633"
+  "BUILD_VERSION=v1.12.0-166-g73e271c"
   "KERNEL"
   "NRF52832_XXAA"
   "_FORTIFY_SOURCE=2"

@@ -1,2 +1,0 @@
-power.c:63:6:_sys_soc_set_power_state	16	static
-power.c:85:6:_sys_soc_power_state_post_ops	16	static

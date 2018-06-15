@@ -1,4 +1,0 @@
-uuid.c:35:13:uuid_to_uuid128	16	static
-uuid.c:64:5:bt_uuid_cmp	48	static
-uuid.c:83:6:bt_uuid_to_str	64	static
-uuid.c:112:13:bt_uuid_str	8	static

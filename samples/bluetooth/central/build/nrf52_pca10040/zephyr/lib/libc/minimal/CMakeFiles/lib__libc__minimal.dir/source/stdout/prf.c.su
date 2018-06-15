@@ -1,5 +1,0 @@
-prf.c:58:12:_to_x	16	static
-prf.c:130:13:_rlrshift	12	static
-prf.c:150:13:_ldiv5	40	static
-prf.c:171:13:_get_digit	8	static
-prf.c:392:5:_prf	352	static

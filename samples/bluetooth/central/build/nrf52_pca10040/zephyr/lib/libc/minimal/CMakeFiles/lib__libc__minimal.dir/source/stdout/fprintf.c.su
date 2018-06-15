@@ -1,4 +1,0 @@
-fprintf.c:17:5:fprintf	12	static
-fprintf.c:29:5:vfprintf	0	static
-fprintf.c:39:5:printf	16	static
-fprintf.c:51:5:vprintf	0	static

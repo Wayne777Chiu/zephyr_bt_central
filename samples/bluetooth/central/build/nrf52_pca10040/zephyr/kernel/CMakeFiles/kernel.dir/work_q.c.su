@@ -1,7 +1,0 @@
-kernel.h:2613:20:k_work_submit_to_queue	4	static
-work_q.c:59:13:work_timeout	0	static
-work_q.c:18:13:work_q_main	8	static
-work_q.c:49:6:k_work_q_start	48	static
-work_q.c:68:6:k_delayed_work_init	0	static
-work_q.c:118:5:k_delayed_work_cancel	20	static
-work_q.c:77:5:k_delayed_work_submit_to_queue	24	static

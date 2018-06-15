@@ -887,33 +887,6 @@ misc/printk.c.s:
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/misc/printk.c.s
 .PHONY : misc/printk.c.s
 
-subsys/logging/sys_log.obj: subsys/logging/sys_log.c.obj
-
-.PHONY : subsys/logging/sys_log.obj
-
-# target to build an object file
-subsys/logging/sys_log.c.obj:
-	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj
-.PHONY : subsys/logging/sys_log.c.obj
-
-subsys/logging/sys_log.i: subsys/logging/sys_log.c.i
-
-.PHONY : subsys/logging/sys_log.i
-
-# target to preprocess a source file
-subsys/logging/sys_log.c.i:
-	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.i
-.PHONY : subsys/logging/sys_log.c.i
-
-subsys/logging/sys_log.s: subsys/logging/sys_log.c.s
-
-.PHONY : subsys/logging/sys_log.s
-
-# target to generate assembly for a file
-subsys/logging/sys_log.c.s:
-	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040 && $(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.s
-.PHONY : subsys/logging/sys_log.c.s
-
 subsys/random/rand32_entropy_device.obj: subsys/random/rand32_entropy_device.c.obj
 
 .PHONY : subsys/random/rand32_entropy_device.obj
@@ -1027,9 +1000,6 @@ help:
 	@echo "... misc/printk.obj"
 	@echo "... misc/printk.i"
 	@echo "... misc/printk.s"
-	@echo "... subsys/logging/sys_log.obj"
-	@echo "... subsys/logging/sys_log.i"
-	@echo "... subsys/logging/sys_log.s"
 	@echo "... subsys/random/rand32_entropy_device.obj"
 	@echo "... subsys/random/rand32_entropy_device.i"
 	@echo "... subsys/random/rand32_entropy_device.s"
