@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj"
   "CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj"
   "CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj"
+  "CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj"
   "CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj"
   "CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj"
   "CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj"

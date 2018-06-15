@@ -381,8 +381,6 @@ CMAKE_COMMAND:INTERNAL=/home/wewise/cmake/cmake-3.8.2-Linux-x86_64/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/home/wewise/cmake/cmake-3.8.2-Linux-x86_64/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/home/wewise/cmake/cmake-3.8.2-Linux-x86_64/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 // 
 CMAKE_CXX_COMPILER:INTERNAL=/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
