@@ -940,12 +940,6 @@ misc/dlist.h
 misc/rb.h
 -
 
-../../../../../include/stats.h
-stddef.h
--
-stdint.h
--
-
 ../../../../../include/sw_isr_table.h
 zephyr/types.h
 -
@@ -1244,20 +1238,6 @@ toolchain.h
 linker/sections.h
 -
 syscall_handler.h
--
-
-/home/wewise/zephyr_prj/zephyr/misc/stats.c
-assert.h
--
-string.h
--
-stdio.h
--
-errno.h
--
-zephyr/types.h
--
-stats.h
 -
 
 /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/misc/generated/configs.c

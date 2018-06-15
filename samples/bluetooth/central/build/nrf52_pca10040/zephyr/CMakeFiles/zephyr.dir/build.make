@@ -297,33 +297,9 @@ zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj.provides: zephyr/CMakeFiles/zephy
 zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj.provides.build: zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj
 
 
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj: ../../../../../misc/stats.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj"
-	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/misc/stats.c.obj   -c /home/wewise/zephyr_prj/zephyr/misc/stats.c
-
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zephyr.dir/misc/stats.c.i"
-	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wewise/zephyr_prj/zephyr/misc/stats.c > CMakeFiles/zephyr.dir/misc/stats.c.i
-
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zephyr.dir/misc/stats.c.s"
-	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wewise/zephyr_prj/zephyr/misc/stats.c -o CMakeFiles/zephyr.dir/misc/stats.c.s
-
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.requires:
-
-.PHONY : zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.requires
-
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.provides: zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.requires
-	$(MAKE) -f zephyr/CMakeFiles/zephyr.dir/build.make zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.provides.build
-.PHONY : zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.provides
-
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.provides.build: zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj
-
-
 zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj: zephyr/misc/generated/configs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/misc/generated/configs.c.obj   -c /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/misc/generated/configs.c
 
 zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.i: cmake_force
@@ -347,7 +323,7 @@ zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj.provides.build: zephyr
 
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj: ../../../../../ext/lib/crypto/tinycrypt/source/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj   -c /home/wewise/zephyr_prj/zephyr/ext/lib/crypto/tinycrypt/source/utils.c
 
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.i: cmake_force
@@ -371,7 +347,7 @@ zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj.provide
 
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj: ../../../../../ext/lib/crypto/tinycrypt/source/aes_decrypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj   -c /home/wewise/zephyr_prj/zephyr/ext/lib/crypto/tinycrypt/source/aes_decrypt.c
 
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.i: cmake_force
@@ -395,7 +371,7 @@ zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj.p
 
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj: ../../../../../ext/lib/crypto/tinycrypt/source/aes_encrypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj   -c /home/wewise/zephyr_prj/zephyr/ext/lib/crypto/tinycrypt/source/aes_encrypt.c
 
 zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.i: cmake_force
@@ -419,7 +395,7 @@ zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_encrypt.c.obj.p
 
 zephyr/CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj: ../../../../../ext/hal/nordic/nrfx_glue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object zephyr/CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj   -c /home/wewise/zephyr_prj/zephyr/ext/hal/nordic/nrfx_glue.c
 
 zephyr/CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.i: cmake_force
@@ -443,7 +419,7 @@ zephyr/CMakeFiles/zephyr.dir/ext/hal/nordic/nrfx_glue.c.obj.provides.build: zeph
 
 zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj: ../../../../../subsys/logging/sys_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/logging/sys_log.c
 
 zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.i: cmake_force
@@ -467,7 +443,7 @@ zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj.provides.build: zephyr
 
 zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj: ../../../../../subsys/random/rand32_entropy_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/random/rand32_entropy_device.c
 
 zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.i: cmake_force
@@ -491,7 +467,7 @@ zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj.provides.
 
 zephyr/CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj: ../../../../../drivers/console/uart_console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj   -c /home/wewise/zephyr_prj/zephyr/drivers/console/uart_console.c
 
 zephyr/CMakeFiles/zephyr.dir/drivers/console/uart_console.c.i: cmake_force
@@ -515,7 +491,7 @@ zephyr/CMakeFiles/zephyr.dir/drivers/console/uart_console.c.obj.provides.build: 
 
 zephyr/CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj: ../../../../../drivers/clock_control/nrf5_power_clock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj   -c /home/wewise/zephyr_prj/zephyr/drivers/clock_control/nrf5_power_clock.c
 
 zephyr/CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.i: cmake_force
@@ -539,7 +515,7 @@ zephyr/CMakeFiles/zephyr.dir/drivers/clock_control/nrf5_power_clock.c.obj.provid
 
 zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.obj: ../../../../../drivers/timer/sys_clock_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.obj   -c /home/wewise/zephyr_prj/zephyr/drivers/timer/sys_clock_init.c
 
 zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.i: cmake_force
@@ -563,7 +539,7 @@ zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.obj.provides.build: 
 
 zephyr/CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.obj: zephyr/CMakeFiles/zephyr.dir/flags.make
 zephyr/CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.obj: ../../../../../drivers/timer/nrf_rtc_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object zephyr/CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.obj   -c /home/wewise/zephyr_prj/zephyr/drivers/timer/nrf_rtc_timer.c
 
 zephyr/CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.i: cmake_force
@@ -597,7 +573,6 @@ zephyr_OBJECTS = \
 "CMakeFiles/zephyr.dir/lib/mempool/mempool.c.obj" \
 "CMakeFiles/zephyr.dir/lib/rbtree/rb.c.obj" \
 "CMakeFiles/zephyr.dir/misc/printk.c.obj" \
-"CMakeFiles/zephyr.dir/misc/stats.c.obj" \
 "CMakeFiles/zephyr.dir/misc/generated/configs.c.obj" \
 "CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj" \
 "CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj" \
@@ -623,7 +598,6 @@ zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/lib/crc/crc8_sw.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/lib/mempool/mempool.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/lib/rbtree/rb.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj
-zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj
@@ -637,7 +611,7 @@ zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/drivers/timer/sys_clock_init.c.
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/drivers/timer/nrf_rtc_timer.c.obj
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/build.make
 zephyr/libzephyr.a: zephyr/CMakeFiles/zephyr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C static library libzephyr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libzephyr.a"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && $(CMAKE_COMMAND) -P CMakeFiles/zephyr.dir/cmake_clean_target.cmake
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zephyr.dir/link.txt --verbose=$(VERBOSE)
 
@@ -656,7 +630,6 @@ zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/lib/crc/crc8
 zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/lib/mempool/mempool.c.obj.requires
 zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/lib/rbtree/rb.c.obj.requires
 zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj.requires
-zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj.requires
 zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj.requires
 zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/utils.c.obj.requires
 zephyr/CMakeFiles/zephyr.dir/requires: zephyr/CMakeFiles/zephyr.dir/ext/lib/crypto/tinycrypt/source/aes_decrypt.c.obj.requires

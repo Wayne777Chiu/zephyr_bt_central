@@ -23,7 +23,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/wewise/zephyr_prj/zephyr/lib/thread_entry.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/CMakeFiles/zephyr.dir/lib/thread_entry.c.obj"
   "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/misc/generated/configs.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj"
   "/home/wewise/zephyr_prj/zephyr/misc/printk.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj"
-  "/home/wewise/zephyr_prj/zephyr/misc/stats.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/logging/sys_log.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/random/rand32_entropy_device.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/CMakeFiles/zephyr.dir/subsys/random/rand32_entropy_device.c.obj"
   )
@@ -31,7 +30,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "BUILD_VERSION=v1.12.0-189-ge877e90"
+  "BUILD_VERSION=v1.12.0-190-gd816638"
   "KERNEL"
   "NRF52832_XXAA"
   "_FORTIFY_SOURCE=2"

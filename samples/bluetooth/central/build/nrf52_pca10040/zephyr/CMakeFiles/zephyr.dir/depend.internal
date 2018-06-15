@@ -1837,26 +1837,6 @@ zephyr/CMakeFiles/zephyr.dir/misc/printk.c.obj
  zephyr/include/generated/syscall_list.h
  zephyr/include/generated/syscall_macros.h
  zephyr/include/generated/syscalls/kernel.h
-zephyr/CMakeFiles/zephyr.dir/misc/stats.c.obj
- ../../../../../include/misc/__assert.h
- ../../../../../include/misc/printk.h
- ../../../../../include/stats.h
- ../../../../../include/toolchain.h
- ../../../../../include/toolchain/common.h
- ../../../../../include/toolchain/gcc.h
- ../../../../../include/toolchain/xcc.h
- ../../../../../include/zephyr/types.h
- ../../../../../lib/libc/minimal/include/assert.h
- ../../../../../lib/libc/minimal/include/bits/restrict.h
- ../../../../../lib/libc/minimal/include/errno.h
- ../../../../../lib/libc/minimal/include/inttypes.h
- ../../../../../lib/libc/minimal/include/stdio.h
- ../../../../../lib/libc/minimal/include/string.h
- /home/wewise/zephyr_prj/zephyr/misc/stats.c
- /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stdarg.h
- /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stddef.h
- /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stdint-gcc.h
- /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include/stdint.h
 zephyr/CMakeFiles/zephyr.dir/subsys/logging/sys_log.c.obj
  ../../../../../include/logging/sys_log.h
  ../../../../../include/misc/printk.h

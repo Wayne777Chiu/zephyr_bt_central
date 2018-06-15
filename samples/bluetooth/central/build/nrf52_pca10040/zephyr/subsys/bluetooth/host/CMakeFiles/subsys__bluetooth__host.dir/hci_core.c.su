@@ -18,7 +18,7 @@ hci_core.c:1299:5:bt_unpair	16	static
 hci_core.c:4083:5:bt_addr_le_create_nrpa	8	static
 hci_core.c:4097:5:bt_addr_le_create_static	8	static
 hci_core.c:4111:5:bt_set_static_addr	24	static
-hci_core.c:4196:6:bt_dev_show_info	64	static
+hci_core.c:4196:6:bt_dev_show_info	56	static
 hci_core.c:4381:5:bt_send	0	static
 hci_core.c:212:5:bt_hci_cmd_send	32	static
 hci_core.c:2995:12:start_le_scan	24	static
