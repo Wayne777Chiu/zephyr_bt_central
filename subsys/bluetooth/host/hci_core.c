@@ -19,6 +19,10 @@
 #include <misc/__assert.h>
 #include <soc.h>
 
+#define BT_DBG_ENABLED IS_ENABLED(CONFIG_BT_DEBUG_HCI_CORE)
+#include "common/log.h"
+
+
 #include <bluetooth/bluetooth.h>
 #include <bluetooth/conn.h>
 #include <bluetooth/l2cap.h>
@@ -26,8 +30,8 @@
 #include <bluetooth/hci_vs.h>
 #include <bluetooth/hci_driver.h>
 
-#define BT_DBG_ENABLED IS_ENABLED(CONFIG_BT_DEBUG_HCI_CORE)
-#include "common/log.h"
+//#define BT_DBG_ENABLED IS_ENABLED(CONFIG_BT_DEBUG_HCI_CORE)
+//#include "common/log.h"
 
 #include "common/rpa.h"
 #include "keys.h"
