@@ -1089,6 +1089,8 @@ misc/__assert.h
 -
 soc.h
 -
+common/log.h
+/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/common/log.h
 bluetooth/bluetooth.h
 -
 bluetooth/conn.h
@@ -1101,8 +1103,6 @@ bluetooth/hci_vs.h
 -
 bluetooth/hci_driver.h
 -
-common/log.h
-/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/common/log.h
 common/rpa.h
 /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/common/rpa.h
 keys.h
