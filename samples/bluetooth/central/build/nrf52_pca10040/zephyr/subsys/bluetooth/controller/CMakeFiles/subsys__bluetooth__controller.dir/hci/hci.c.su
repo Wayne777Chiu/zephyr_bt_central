@@ -7,12 +7,12 @@ hci.c:2731:13:encrypt_change	16	static
 hci.c:2749:13:le_remote_feat_complete	16	static
 hci.c:2388:13:le_conn_complete.part.39	40	static
 bluetooth.h:438:19:bt_addr_le_to_str.constprop	56	static
-hci.c:2275:13:le_adv_ext_report.isra.66	96	static
+hci.c:2275:13:le_adv_ext_report.isra.66	80	static
 byteorder.h:272:21:sys_get_le64	0	static
 hci.c:1976:17:hci_cmd_handle	96	static
-hci.c:2034:5:hci_acl_handle	40	static
-hci.c:2911:6:hci_acl_encode	24	static
-hci.c:2957:6:hci_evt_encode	112	static
+hci.c:2034:5:hci_acl_handle	32	static
+hci.c:2911:6:hci_acl_encode	16	static
+hci.c:2957:6:hci_evt_encode	104	static
 hci.c:2970:6:hci_num_cmplt_encode	16	static
 hci.c:2989:6:hci_get_class	0	static
 hci.c:3046:6:hci_init	0	static

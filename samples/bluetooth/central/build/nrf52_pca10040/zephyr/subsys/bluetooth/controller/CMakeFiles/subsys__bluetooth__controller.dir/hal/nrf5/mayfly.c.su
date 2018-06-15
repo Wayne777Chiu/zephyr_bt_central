@@ -1,4 +1,4 @@
-mayfly.c:24:6:mayfly_enable_cb	16	static
-mayfly.c:37:7:mayfly_is_enabled	16	static
+mayfly.c:24:6:mayfly_enable_cb	8	static
+mayfly.c:37:7:mayfly_is_enabled	8	static
 mayfly.c:56:7:mayfly_prio_is_equal	0	static
-mayfly.c:70:6:mayfly_pend	16	static
+mayfly.c:70:6:mayfly_pend	8	static

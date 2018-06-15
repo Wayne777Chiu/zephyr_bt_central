@@ -57,9 +57,33 @@ include zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/prog
 # Include the compile flags for this target's objects.
 include zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj: ../../../../../subsys/bluetooth/host/monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj"
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.c
+
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subsys__bluetooth__host.dir/monitor.c.i"
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.c > CMakeFiles/subsys__bluetooth__host.dir/monitor.c.i
+
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subsys__bluetooth__host.dir/monitor.c.s"
+	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.c -o CMakeFiles/subsys__bluetooth__host.dir/monitor.c.s
+
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.requires:
+
+.PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.requires
+
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.provides: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.requires
+	$(MAKE) -f zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.provides.build
+.PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.provides
+
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.provides.build: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj
+
+
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj: ../../../../../subsys/bluetooth/host/uuid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/uuid.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.i: cmake_force
@@ -83,7 +107,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj.p
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj: ../../../../../subsys/bluetooth/host/hci_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/hci_core.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.i: cmake_force
@@ -107,7 +131,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.o
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj: ../../../../../subsys/bluetooth/host/conn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/conn.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.i: cmake_force
@@ -131,7 +155,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj.p
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj: ../../../../../subsys/bluetooth/host/l2cap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/l2cap.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.i: cmake_force
@@ -155,7 +179,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj.
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj: ../../../../../subsys/bluetooth/host/att.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/att.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/att.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.i: cmake_force
@@ -179,7 +203,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/att.c.obj.pr
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj: ../../../../../subsys/bluetooth/host/gatt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/gatt.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.i: cmake_force
@@ -203,7 +227,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj.p
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/flags.make
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj: ../../../../../subsys/bluetooth/host/smp_null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj   -c /home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/smp_null.c
 
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.i: cmake_force
@@ -227,6 +251,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.o
 
 # Object files for target subsys__bluetooth__host
 subsys__bluetooth__host_OBJECTS = \
+"CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj" \
 "CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj" \
 "CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj" \
 "CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj" \
@@ -238,6 +263,7 @@ subsys__bluetooth__host_OBJECTS = \
 # External object files for target subsys__bluetooth__host
 subsys__bluetooth__host_EXTERNAL_OBJECTS =
 
+zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj
 zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj
 zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj
 zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj
@@ -247,7 +273,7 @@ zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetoo
 zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj
 zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build.make
 zephyr/subsys/bluetooth/host/libsubsys__bluetooth__host.a: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libsubsys__bluetooth__host.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libsubsys__bluetooth__host.a"
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && $(CMAKE_COMMAND) -P CMakeFiles/subsys__bluetooth__host.dir/cmake_clean_target.cmake
 	cd /home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/subsys__bluetooth__host.dir/link.txt --verbose=$(VERBOSE)
 
@@ -256,6 +282,7 @@ zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build: zephy
 
 .PHONY : zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/build
 
+zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/requires: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj.requires
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/requires: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj.requires
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/requires: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj.requires
 zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/requires: zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj.requires

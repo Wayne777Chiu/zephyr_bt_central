@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj"
   "CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj"
   "CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj"
   "CMakeFiles/subsys__bluetooth__host.dir/conn.c.obj"

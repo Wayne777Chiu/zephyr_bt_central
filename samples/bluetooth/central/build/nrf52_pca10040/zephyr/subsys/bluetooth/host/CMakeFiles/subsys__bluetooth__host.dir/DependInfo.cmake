@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/gatt.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/gatt.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/hci_core.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/hci_core.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/l2cap.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/l2cap.c.obj"
+  "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/monitor.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/monitor.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/smp_null.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/smp_null.c.obj"
   "/home/wewise/zephyr_prj/zephyr/subsys/bluetooth/host/uuid.c" "/home/wewise/zephyr_prj/zephyr/samples/bluetooth/central/build/nrf52_pca10040/zephyr/subsys/bluetooth/host/CMakeFiles/subsys__bluetooth__host.dir/uuid.c.obj"
   )
@@ -16,7 +17,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "BUILD_VERSION=v1.12.0-162-gb15e8fb"
+  "BUILD_VERSION=v1.12.0-163-g79c7f7b"
   "KERNEL"
   "NRF52832_XXAA"
   "_FORTIFY_SOURCE=2"

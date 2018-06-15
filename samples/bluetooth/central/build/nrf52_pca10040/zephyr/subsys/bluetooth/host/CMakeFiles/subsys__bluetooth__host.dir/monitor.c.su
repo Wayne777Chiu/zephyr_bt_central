@@ -1,0 +1,9 @@
+monitor.c:244:12:bt_monitor_init	8	static
+monitor.c:65:13:encode_drops	8	static
+monitor.c:77:20:encode_hdr	16	static
+atomic.h:102:28:atomic_inc	0	static
+monitor.c:56:13:monitor_send	16	static
+monitor.c:103:12:log_out	8	static
+monitor.c:138:6:bt_log	68	static
+monitor.c:179:6:bt_monitor_send	40	static
+monitor.c:196:6:bt_monitor_new_index	32	static
