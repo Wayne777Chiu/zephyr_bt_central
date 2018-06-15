@@ -1,5 +1,5 @@
 hci_driver.c:460:12:_hci_driver_init	8	static
-hci_driver.c:384:12:hci_driver_send	24	static
-hci_driver.c:281:13:recv_thread	24	static
+hci_driver.c:281:13:recv_thread	32	static
+hci_driver.c:384:12:hci_driver_send	40	static
 hci_driver.c:68:13:prio_recv_thread	32	static
-hci_driver.c:420:12:hci_driver_open	32	static
+hci_driver.c:420:12:hci_driver_open	40	static
