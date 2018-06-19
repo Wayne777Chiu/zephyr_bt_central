@@ -3234,651 +3234,651 @@ net_l2          0x0000000000014500        0x0
  *(SORT(.net_l2.init*))
                 0x0000000000014500                __net_l2_end = .
 
-rodata          0x0000000000014500     0x39b8
+rodata          0x0000000000014500     0x39c4
  *(.rodata)
  .rodata        0x0000000000014500       0x14 ../libapp.a(main.c.obj)
  .rodata        0x0000000000014514       0x2f subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata        0x0000000000014543       0x1a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  *(.rodata.*)
  .rodata.bt_addr_le_to_str.constprop.2.str1.1
-                0x000000000001455d       0x45 ../libapp.a(main.c.obj)
-                                         0x4c (size before relaxing)
+                0x000000000001455d       0x4c ../libapp.a(main.c.obj)
  .rodata.connected.str1.1
-                0x00000000000145a2       0x2d ../libapp.a(main.c.obj)
+                0x00000000000145a9       0x2d ../libapp.a(main.c.obj)
  .rodata.device_found.str1.1
-                0x00000000000145cf       0x1c ../libapp.a(main.c.obj)
+                0x00000000000145d6       0x1c ../libapp.a(main.c.obj)
  .rodata.disconnected.str1.1
-                0x00000000000145eb       0x41 ../libapp.a(main.c.obj)
+                0x00000000000145f2       0x41 ../libapp.a(main.c.obj)
  .rodata.main.str1.1
-                0x000000000001462c       0x56 ../libapp.a(main.c.obj)
+                0x0000000000014633       0x56 ../libapp.a(main.c.obj)
  .rodata.str1.1
-                0x0000000000014682        0xf libzephyr.a(mpu_regions.c.obj)
+                0x0000000000014689        0xf libzephyr.a(mpu_regions.c.obj)
  .rodata.str1.1
-                0x0000000000014691        0xf libzephyr.a(soc.c.obj)
+                0x0000000000014698        0xf libzephyr.a(soc.c.obj)
                                           0x1 (size before relaxing)
  .rodata.sys_rand32_get.str1.1
-                0x0000000000014691        0xa libzephyr.a(rand32_entropy_device.c.obj)
+                0x0000000000014698        0xa libzephyr.a(rand32_entropy_device.c.obj)
  .rodata.str1.1
-                0x000000000001469b        0x1 libzephyr.a(uart_console.c.obj)
+                0x00000000000146a2        0x1 libzephyr.a(uart_console.c.obj)
  .rodata.uart_console_init.str1.1
-                0x000000000001469b        0x7 libzephyr.a(uart_console.c.obj)
- *fill*         0x00000000000146a2        0x2 
+                0x00000000000146a2        0x7 libzephyr.a(uart_console.c.obj)
+ *fill*         0x00000000000146a9        0x3 
  .rodata._k32src_clock_control_api
-                0x00000000000146a4        0xc libzephyr.a(nrf5_power_clock.c.obj)
+                0x00000000000146ac        0xc libzephyr.a(nrf5_power_clock.c.obj)
  .rodata._m16src_clock_control_api
-                0x00000000000146b0        0xc libzephyr.a(nrf5_power_clock.c.obj)
+                0x00000000000146b8        0xc libzephyr.a(nrf5_power_clock.c.obj)
  .rodata.str1.1
-                0x00000000000146bc       0x16 libzephyr.a(nrf5_power_clock.c.obj)
+                0x00000000000146c4       0x16 libzephyr.a(nrf5_power_clock.c.obj)
  .rodata.str1.1
-                0x00000000000146d2        0xa libzephyr.a(sys_clock_init.c.obj)
+                0x00000000000146da        0xa libzephyr.a(sys_clock_init.c.obj)
  .rodata._sys_clock_driver_init.str1.1
-                0x00000000000146dc        0xb libzephyr.a(nrf_rtc_timer.c.obj)
+                0x00000000000146e4        0xb libzephyr.a(nrf_rtc_timer.c.obj)
  .rodata._BusFault.str1.1
-                0x00000000000146dc       0x66 arch/arm/core/libarch__arm__core.a(fault.c.obj)
+                0x00000000000146e4       0x66 arch/arm/core/libarch__arm__core.a(fault.c.obj)
  .rodata._Fault.str1.1
-                0x0000000000014742       0xd3 arch/arm/core/libarch__arm__core.a(fault.c.obj)
+                0x000000000001474a       0xd3 arch/arm/core/libarch__arm__core.a(fault.c.obj)
  .rodata._FaultThreadShow.isra.2.str1.1
-                0x0000000000014815       0x4a arch/arm/core/libarch__arm__core.a(fault.c.obj)
+                0x000000000001481d       0x4a arch/arm/core/libarch__arm__core.a(fault.c.obj)
  .rodata._MpuFault.str1.1
-                0x000000000001485f       0xb7 arch/arm/core/libarch__arm__core.a(fault.c.obj)
+                0x0000000000014867       0xb7 arch/arm/core/libarch__arm__core.a(fault.c.obj)
  .rodata._UsageFault.str1.1
-                0x0000000000014916       0xd4 arch/arm/core/libarch__arm__core.a(fault.c.obj)
+                0x000000000001491e       0xd4 arch/arm/core/libarch__arm__core.a(fault.c.obj)
  .rodata._NanoFatalErrorHandler.str1.1
-                0x00000000000149ea       0xba arch/arm/core/libarch__arm__core.a(fatal.c.obj)
+                0x00000000000149f2       0xba arch/arm/core/libarch__arm__core.a(fatal.c.obj)
  .rodata._SysFatalErrorHandler.str1.1
-                0x0000000000014aa4       0x5a arch/arm/core/libarch__arm__core.a(sys_fatal_error_handler.c.obj)
+                0x0000000000014aac       0x5a arch/arm/core/libarch__arm__core.a(sys_fatal_error_handler.c.obj)
  .rodata.str1.1
-                0x0000000000014afe        0x1 arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a(arm_mpu.c.obj)
+                0x0000000000014b06        0x1 arch/arm/core/cortex_m/mpu/libarch__arm__core__cortex_m__mpu.a(arm_mpu.c.obj)
  .rodata.bt_addr_le_str.str1.1
-                0x0000000000014afe       0x4c subsys/bluetooth/common/libsubsys__bluetooth__common.a(log.c.obj)
+                0x0000000000014b06       0x4c subsys/bluetooth/common/libsubsys__bluetooth__common.a(log.c.obj)
  .rodata.bt_addr_str.str1.1
-                0x0000000000014afe       0x1e subsys/bluetooth/common/libsubsys__bluetooth__common.a(log.c.obj)
+                0x0000000000014b06       0x1e subsys/bluetooth/common/libsubsys__bluetooth__common.a(log.c.obj)
  .rodata.hex.7890
-                0x0000000000014b1c       0x11 subsys/bluetooth/common/libsubsys__bluetooth__common.a(log.c.obj)
+                0x0000000000014b24       0x11 subsys/bluetooth/common/libsubsys__bluetooth__common.a(log.c.obj)
  .rodata.uuid128_base
-                0x0000000000014b2d       0x11 subsys/bluetooth/host/libsubsys__bluetooth__host.a(uuid.c.obj)
+                0x0000000000014b35       0x11 subsys/bluetooth/host/libsubsys__bluetooth__host.a(uuid.c.obj)
  .rodata.__func__.10988
-                0x0000000000014b3e       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014b46       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11033
-                0x0000000000014b4e        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014b56        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11039
-                0x0000000000014b56       0x1a subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014b5e       0x1a subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11067
-                0x0000000000014b70       0x15 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014b78       0x15 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11100
-                0x0000000000014b85       0x15 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014b8d       0x15 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11117
-                0x0000000000014b9a       0x18 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014ba2       0x18 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11131
-                0x0000000000014bb2       0x13 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014bba       0x13 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11139
-                0x0000000000014bc5       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014bcd       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11165
-                0x0000000000014bdc       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014be4       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11172
-                0x0000000000014bee       0x18 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014bf6       0x18 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11214
-                0x0000000000014c06        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c0e        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11273
-                0x0000000000014c13       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c1b       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11278
-                0x0000000000014c25        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c2d        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11288
-                0x0000000000014c2f        0x9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c37        0x9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11293
-                0x0000000000014c38        0xf subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c40        0xf subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11309
-                0x0000000000014c47        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c4f        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11373
-                0x0000000000014c55        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c5d        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11404
-                0x0000000000014c5d       0x13 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c65       0x13 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11411
-                0x0000000000014c70        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c78        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11420
-                0x0000000000014c7e       0x11 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c86       0x11 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11445
-                0x0000000000014c8f        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014c97        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11450
-                0x0000000000014c9b        0x9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014ca3        0x9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11460
-                0x0000000000014ca4        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014cac        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11468
-                0x0000000000014cac        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014cb4        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.__func__.11490
-                0x0000000000014cb9        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014cc1        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_dev_show_info.str1.1
-                0x0000000000014cc3       0xa9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014ccb       0xa9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_enable.str1.1
-                0x0000000000014d6c       0x55 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014d74       0x55 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_hci_cmd_send.str1.1
-                0x0000000000014dc1       0x32 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014dc9       0x32 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_init.str1.1
-                0x0000000000014df3      0x275 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000014dfb      0x275 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_recv.str1.1
-                0x0000000000015068      0x1d0 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015070      0x1d1 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_recv_prio.str1.1
-                0x0000000000015238      0x132 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015241      0x132 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_set_static_addr.str1.1
-                0x000000000001536a       0x48 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015373       0x48 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.hci_cmd_done.str1.1
-                0x00000000000153b2       0x92 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x00000000000153bb       0x92 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
                                          0x93 (size before relaxing)
  .rodata.hci_tx_thread.str1.1
-                0x0000000000015444       0xab subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x000000000001544d       0xab subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.le_enh_conn_complete.str1.1
-                0x00000000000154ef       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x00000000000154f8       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+ *fill*         0x000000000001552d        0x3 
  .rodata.net_buf_fixed_alloc_hci_cmd_pool
-                0x0000000000015524        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015530        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.net_buf_fixed_alloc_hci_rx_pool
-                0x000000000001552c        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015538        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.net_buf_fixed_hci_cmd_pool
-                0x0000000000015534        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015540        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.net_buf_fixed_hci_rx_pool
-                0x000000000001553c        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015548        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.nordic_str.11429
-                0x0000000000015544        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015550        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.plat_str.11424
-                0x0000000000015550       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x000000000001555c       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.str1.1
-                0x0000000000015560       0xd0 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x000000000001556c       0xd0 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.var_str.11433
-                0x0000000000015630       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x000000000001563c       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.ver_str.str1.1
-                0x0000000000015640        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x000000000001564c        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.CSWTCH.48
-                0x0000000000015648       0x14 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015654       0x14 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8885
-                0x000000000001565c        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015668        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8895
-                0x0000000000015669       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015675       0x10 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8903
-                0x0000000000015679       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015685       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8921
-                0x000000000001568b        0xf subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015697        0xf subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8937
-                0x000000000001569a        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000156a6        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8953
-                0x00000000000156a4        0x9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000156b0        0x9 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8970
-                0x00000000000156ad       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000156b9       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8980
-                0x00000000000156c4       0x13 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000156d0       0x13 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.8997
-                0x00000000000156d7       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000156e3       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.9050
-                0x00000000000156e9        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000156f5        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.9054
-                0x00000000000156f5        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015701        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.__func__.9074
-                0x0000000000015703       0x18 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x000000000001570f       0x18 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.bt_conn_le_param_update.str1.1
-                0x000000000001571b       0x42 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015727       0x42 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.bt_conn_notify_tx.str1.1
-                0x000000000001575d       0x1d subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015769       0x1d subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.bt_conn_prepare_events.str1.1
-                0x000000000001577a       0x47 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015786       0x47 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.bt_conn_process_tx.str1.1
-                0x00000000000157c1       0x65 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x00000000000157cd       0x65 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
                                          0x8a (size before relaxing)
  .rodata.bt_conn_recv.str1.1
-                0x0000000000015826      0x1fd subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015832      0x1fd subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
                                         0x208 (size before relaxing)
  .rodata.bt_conn_ref.str1.1
-                0x0000000000015a23       0x26 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015a2f       0x26 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.bt_conn_send_cb.str1.1
-                0x0000000000015a49       0x54 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015a55       0x54 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.bt_conn_set_state.str1.1
-                0x0000000000015a9d       0x72 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015aa9       0x72 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
                                          0x79 (size before relaxing)
- *fill*         0x0000000000015b0f        0x1 
+ *fill*         0x0000000000015b1b        0x1 
  .rodata.net_buf_fixed_acl_tx_pool
-                0x0000000000015b10        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015b1c        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.net_buf_fixed_alloc_acl_tx_pool
-                0x0000000000015b18        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015b24        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.net_buf_fixed_alloc_frag_pool
-                0x0000000000015b20        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015b2c        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.net_buf_fixed_frag_pool
-                0x0000000000015b28        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015b34        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
  .rodata.send_frag.str1.1
-                0x0000000000015b30       0x5b subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015b3c       0x5b subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
                                          0x8d (size before relaxing)
  .rodata.str1.1
-                0x0000000000015b8b       0x25 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
+                0x0000000000015b97       0x25 subsys/bluetooth/host/libsubsys__bluetooth__host.a(conn.c.obj)
                                          0x37 (size before relaxing)
  .rodata.__func__.8561
-                0x0000000000015bb0       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015bbc       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.__func__.8634
-                0x0000000000015bc2       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015bce       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.__func__.8645
-                0x0000000000015bd4       0x19 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015be0       0x19 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.__func__.8669
-                0x0000000000015bed        0xb subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015bf9        0xb subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.__func__.8687
-                0x0000000000015bf8        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015c04        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.__func__.8708
-                0x0000000000015c06        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015c12        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.bt_l2cap_recv.str1.1
-                0x0000000000015c13       0x62 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015c1f       0x62 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
  .rodata.l2cap_accept.str1.1
-                0x0000000000015c75       0x37 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015c81       0x37 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
                                          0x42 (size before relaxing)
  .rodata.l2cap_recv.str1.1
-                0x0000000000015cac      0x11d subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+                0x0000000000015cb8      0x11d subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
                                         0x124 (size before relaxing)
  .rodata.l2cap_rtx_timeout.str1.1
-                0x0000000000015dc9       0x20 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
- *fill*         0x0000000000015de9        0x3 
+                0x0000000000015dd5       0x20 subsys/bluetooth/host/libsubsys__bluetooth__host.a(l2cap.c.obj)
+ *fill*         0x0000000000015df5        0x3 
  .rodata.CSWTCH.58
-                0x0000000000015dec       0x14 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015df8       0x14 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9103
-                0x0000000000015e00        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e0c        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9116
-                0x0000000000015e0d        0xf subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e19        0xf subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9408
-                0x0000000000015e1c       0x15 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e28       0x15 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9506
-                0x0000000000015e31        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e3d        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9515
-                0x0000000000015e3d        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e49        0xd subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9524
-                0x0000000000015e4a       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e56       0x12 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9542
-                0x0000000000015e5c        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e68        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9561
-                0x0000000000015e68        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e74        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.att_chan_get.str1.1
-                0x0000000000015e76       0x7d subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015e82       0x7d subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
                                          0x84 (size before relaxing)
  .rodata.att_handle_rsp.str1.1
-                0x0000000000015ef3       0x27 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015eff       0x27 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.att_send_req.str1.1
-                0x0000000000015f1a       0x1d subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015f26       0x1d subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.att_signed_write_cmd.str1.1
-                0x0000000000015f37       0x25 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015f43       0x25 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.att_timeout.str1.1
-                0x0000000000015f5c       0x1c subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015f68       0x1c subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.bt_att_accept.str1.1
-                0x0000000000015f78       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015f84       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
                                          0x40 (size before relaxing)
  .rodata.bt_att_create_pdu.str1.1
-                0x0000000000015fad       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x0000000000015fb9       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.bt_att_recv.str1.1
-                0x0000000000015fe2       0xdd subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
- *fill*         0x00000000000160bf        0x1 
+                0x0000000000015fee       0xdd subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+ *fill*         0x00000000000160cb        0x1 
  .rodata.handlers
-                0x00000000000160c0       0xd8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
+                0x00000000000160cc       0xd8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(att.c.obj)
  .rodata.__func__.9247
-                0x0000000000016198        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000161a4        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.__func__.9360
-                0x00000000000161a6       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000161b2       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.__func__.9429
-                0x00000000000161bd       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000161c9       0x17 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.__func__.9471
-                0x00000000000161d4        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000161e0        0xc subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.__func__.9489
-                0x00000000000161e0        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000161ec        0xa subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.__func__.9499
-                0x00000000000161ea        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000161f6        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.bt_gatt_attr_read_chrc.str1.1
-                0x00000000000161f8       0x36 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x0000000000016204       0x36 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.bt_gatt_attr_write_ccc.str1.1
-                0x000000000001622e       0x2a subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x000000000001623a       0x2a subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.gatt_indicate.str1.1
-                0x0000000000016258       0x61 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x0000000000016264       0x61 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.gatt_notify.str1.1
-                0x00000000000162b9       0x39 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000162c5       0x39 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
                                          0x40 (size before relaxing)
  .rodata.gatt_register.str1.1
-                0x00000000000162f2       0x31 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x00000000000162fe       0x31 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
                                          0x3c (size before relaxing)
  .rodata.read_name.str1.1
-                0x0000000000016323        0x7 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
+                0x000000000001632f        0x7 subsys/bluetooth/host/libsubsys__bluetooth__host.a(gatt.c.obj)
  .rodata.__func__.8528
-                0x000000000001632a        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(smp_null.c.obj)
+                0x0000000000016336        0xe subsys/bluetooth/host/libsubsys__bluetooth__host.a(smp_null.c.obj)
  .rodata.bt_smp_accept.str1.1
-                0x0000000000016338       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(smp_null.c.obj)
+                0x0000000000016344       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(smp_null.c.obj)
                                          0x40 (size before relaxing)
  .rodata.__func__.10416
-                0x000000000001636d       0x1a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+                0x0000000000016379       0x1a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
  .rodata.ticker_job.str1.1
-                0x0000000000016387       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+                0x0000000000016393       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
                                          0x2e (size before relaxing)
  .rodata.__func__.10962
-                0x00000000000163aa        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x00000000000163b6        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.__func__.10994
-                0x00000000000163b6       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x00000000000163c2       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.__func__.11003
-                0x00000000000163c6       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
- *fill*         0x00000000000163d6        0x2 
- .rodata.drv    0x00000000000163d8       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x00000000000163d2       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+ *fill*         0x00000000000163e2        0x2 
+ .rodata.drv    0x00000000000163e4       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.hci_driver_open.str1.1
-                0x00000000000163ec       0x2d subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x00000000000163f8       0x2d subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.hci_driver_send.str1.1
-                0x0000000000016419       0x45 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x0000000000016425       0x45 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.recv_thread.str1.1
-                0x000000000001645e       0x2e subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x000000000001646a       0x2e subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.str1.1
-                0x000000000001645e        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
+                0x000000000001646a        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
  .rodata.CSWTCH.205
-                0x0000000000016469        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x0000000000016475        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11343
-                0x0000000000016474        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x0000000000016480        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11362
-                0x0000000000016483        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001648f        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11387
-                0x0000000000016492       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001649e       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11396
-                0x00000000000164a8       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x00000000000164b4       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11425
-                0x00000000000164ba       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x00000000000164c6       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11473
-                0x00000000000164cf       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x00000000000164db       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11495
-                0x00000000000164e3        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x00000000000164ef        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11523
-                0x00000000000164f2        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x00000000000164fe        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11560
-                0x0000000000016501       0x11 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001650d       0x11 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.__func__.11574
-                0x0000000000016512        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001651e        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.bt_addr_le_to_str.constprop.70.str1.1
-                0x0000000000016521       0x4c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001652d       0x4c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.hci_acl_encode.str1.1
-                0x0000000000016521       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001652d       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.hci_acl_handle.str1.1
-                0x0000000000016521       0x96 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001652d       0x96 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.hci_cmd_handle.str1.1
-                0x00000000000165b7       0x7c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x00000000000165c3       0x7c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
                                          0x83 (size before relaxing)
  .rodata.hci_evt_encode.str1.1
-                0x0000000000016633       0xd2 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x000000000001663f       0xd2 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
  .rodata.le_adv_ext_report.isra.66.str1.1
-                0x0000000000016705       0xb5 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
+                0x0000000000016711       0xb5 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci.c.obj)
                                          0xc0 (size before relaxing)
  .rodata.__func__.11556
-                0x00000000000167ba        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000167c6        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11576
-                0x00000000000167c6       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000167d2       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11631
-                0x00000000000167d9        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000167e5        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11654
-                0x00000000000167e4       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000167f0       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11706
-                0x00000000000167f7        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016803        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11726
-                0x0000000000016803       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001680f       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11755
-                0x0000000000016817       0x22 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016823       0x22 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11792
-                0x0000000000016839       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016845       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11813
-                0x0000000000016852       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001685e       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11872
-                0x0000000000016867       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016873       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11895
-                0x0000000000016877        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016883        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11915
-                0x0000000000016883       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001688f       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11923
-                0x0000000000016896        0xe subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000168a2        0xe subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11947
-                0x00000000000168a4        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000168b0        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11960
-                0x00000000000168b3       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000168bf       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11980
-                0x00000000000168c9        0x4 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000168d5        0x4 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11993
-                0x00000000000168cd       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000168d9       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11998
-                0x00000000000168e3       0x17 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000168ef       0x17 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12003
-                0x00000000000168fa       0x18 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016906       0x18 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12008
-                0x0000000000016912       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001691e       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12014
-                0x000000000001692b       0x1b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016937       0x1b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12019
-                0x0000000000016946       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016952       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12029
-                0x000000000001695a        0xd subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016966        0xd subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12042
-                0x0000000000016967        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016973        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12055
-                0x0000000000016976        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016982        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12067
-                0x0000000000016981       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001698d       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12094
-                0x0000000000016994       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000169a0       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12123
-                0x00000000000169a7       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000169b3       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12151
-                0x00000000000169bd       0x1f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000169c9       0x1f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12166
-                0x00000000000169dc       0x21 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000169e8       0x21 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12207
-                0x00000000000169fd       0x1b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a09       0x1b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12251
-                0x0000000000016a18       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a24       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12261
-                0x0000000000016a2a        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a36        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12277
-                0x0000000000016a35       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a41       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12347
-                0x0000000000016a4a        0x9 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a56        0x9 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12359
-                0x0000000000016a53       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a5f       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12452
-                0x0000000000016a63       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a6f       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12466
-                0x0000000000016a76        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a82        0xb subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12482
-                0x0000000000016a81       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016a8d       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12500
-                0x0000000000016a95       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016aa1       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12544
-                0x0000000000016aa9        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016ab5        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12557
-                0x0000000000016ab8       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016ac4       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12585
-                0x0000000000016acd       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016ad9       0x16 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12599
-                0x0000000000016ae3        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016aef        0xf subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12626
-                0x0000000000016af2       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016afe       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12637
-                0x0000000000016b05       0x17 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b11       0x17 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12649
-                0x0000000000016b1c       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b28       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12680
-                0x0000000000016b35        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b41        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12698
-                0x0000000000016b41        0xd subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b4d        0xd subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12747
-                0x0000000000016b4e       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b5a       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12780
-                0x0000000000016b60       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b6c       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12785
-                0x0000000000016b74       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b80       0x13 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12806
-                0x0000000000016b87       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016b93       0x19 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12811
-                0x0000000000016ba0        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016bac        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12819
-                0x0000000000016bac       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016bb8       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12828
-                0x0000000000016bbc        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016bc8        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12928
-                0x0000000000016bc8       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016bd4       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.12950
-                0x0000000000016bdc        0xd subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016be8        0xd subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.13174
-                0x0000000000016be9        0xe subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016bf5        0xe subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.13214
-                0x0000000000016bf7       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016c03       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.13250
-                0x0000000000016c09       0x1c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016c15       0x1c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.13258
-                0x0000000000016c25       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016c31       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.common_init.str1.1
-                0x0000000000016c37       0x26 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016c43       0x26 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
                                          0x31 (size before relaxing)
  .rodata.connection_release.str1.1
-                0x0000000000016c5d       0x4e subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016c69       0x4e subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.event_connection_prepare.str1.1
-                0x0000000000016cab       0xce subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016cb7       0xce subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.event_scan.str1.1
-                0x0000000000016d79       0xb3 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016d85       0xb3 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.event_slave.str1.1
-                0x0000000000016e2c       0x50 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016e38       0x50 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.gc_lookup_ppm
-                0x0000000000016e7c       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016e88       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.isr.str1.1
-                0x0000000000016e8c      0x19c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000016e98      0x19c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.isr_rx_conn_pkt_ctrl.str1.1
-                0x0000000000017028      0x16a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017034      0x16a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ll_rx_dequeue.str1.1
-                0x0000000000017192       0x79 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001719e       0x79 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ll_tx_mem_enqueue.str1.1
-                0x000000000001720b       0xb8 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017217       0xb8 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.mayfly_adv_stop.str1.1
-                0x00000000000172c3       0x29 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000172cf       0x29 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.mayfly_radio_active.str1.1
-                0x00000000000172ec       0x2a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000172f8       0x2a subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.mayfly_radio_stop.str1.1
-                0x0000000000017316       0x51 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017322       0x51 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.mayfly_xtal_retain.str1.1
-                0x0000000000017367       0x59 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017373       0x59 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.mayfly_xtal_stop_calc.str1.1
-                0x00000000000173c0       0x54 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000173cc       0x54 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.packet_rx_enqueue.str1.1
-                0x0000000000017414       0x53 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017420       0x53 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.pdu_node_tx_release.str1.1
-                0x0000000000017467       0x45 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017473       0x45 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.radio_connect_enable.str1.1
-                0x00000000000174ac       0x27 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000174b8       0x27 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.radio_event_adv_prepare.str1.1
-                0x00000000000174d3       0x3b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000174df       0x3b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.role_disable.str1.1
-                0x000000000001750e      0x1b5 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001751a      0x1b5 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
                                         0x1d8 (size before relaxing)
  .rodata.sched_after_mstr_free_offset_get.str1.1
-                0x00000000000176c3       0x59 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000176cf       0x59 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.sched_free_win_offset_calc.str1.1
-                0x000000000001771c       0x2d subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017728       0x2d subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.terminate_ind_rx_enqueue.str1.1
-                0x0000000000017749       0x39 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017755       0x39 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ticker_op_latency_cancelled.str1.1
-                0x0000000000017782       0x34 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001778e       0x34 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ticker_stop_adv_assert.str1.1
-                0x00000000000177b6       0x3f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000177c2       0x3f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ticker_stop_scan_assert.str1.1
-                0x00000000000177f5       0x3f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017801       0x3f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ticker_success_assert.str1.1
-                0x0000000000017834       0x2d subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x0000000000017840       0x2d subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ticker_update_adv_assert.str1.1
-                0x0000000000017861       0x4f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x000000000001786d       0x4f subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.ticker_update_slave_assert.str1.1
-                0x00000000000178b0       0x57 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
+                0x00000000000178bc       0x57 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ctrl.c.obj)
  .rodata.__func__.11294
-                0x0000000000017907        0x8 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll.c.obj)
+                0x0000000000017913        0x8 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll.c.obj)
  .rodata.ll_init.str1.1
-                0x000000000001790f       0x5b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll.c.obj)
+                0x000000000001791b       0x5b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll.c.obj)
                                          0x86 (size before relaxing)
  .rodata.__func__.8712
-                0x000000000001796a        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017976        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.__func__.8717
-                0x0000000000017976       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017982       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.__func__.8721
-                0x0000000000017986       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017992       0x15 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.__func__.8772
-                0x000000000001799b       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x00000000000179a7       0x14 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.__func__.8778
-                0x00000000000179af       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x00000000000179bb       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.__func__.8818
-                0x00000000000179c1       0x11 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x00000000000179cd       0x11 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.ctrl_irk_whitelisted.str1.1
-                0x00000000000179d2       0x32 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x00000000000179de       0x32 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.ctrl_rl_idx.str1.1
-                0x0000000000017a04      0x1fe subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017a10      0x1fe subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
                                         0x209 (size before relaxing)
  .rodata.ctrl_rl_irk_idx.str1.1
-                0x0000000000017c02       0x65 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017c0e       0x65 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.ll_rl_id_addr_get.str1.1
-                0x0000000000017c67       0x2c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017c73       0x2c subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.ll_rl_rpa_update.str1.1
-                0x0000000000017c93       0x26 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
+                0x0000000000017c9f       0x26 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ll_filter.c.obj)
  .rodata.__func__.10026
-                0x0000000000017c93        0xa subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(cntr.c.obj)
+                0x0000000000017c9f        0xa subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(cntr.c.obj)
  .rodata.cntr_stop.str1.1
-                0x0000000000017c9d       0x2b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(cntr.c.obj)
+                0x0000000000017ca9       0x2b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(cntr.c.obj)
                                          0x36 (size before relaxing)
  .rodata.__func__.10063
-                0x0000000000017cc8       0x11 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
+                0x0000000000017cd4       0x11 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
  .rodata.__func__.10071
-                0x0000000000017cd9       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
+                0x0000000000017ce5       0x12 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
  .rodata.__func__.10085
-                0x0000000000017ceb        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
+                0x0000000000017cf7        0xc subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
  .rodata.mayfly_enable_cb.str1.1
-                0x0000000000017cf7       0x30 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
+                0x0000000000017d03       0x30 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
                                          0x3b (size before relaxing)
  .rodata.mayfly_is_enabled.str1.1
-                0x0000000000017d27       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
+                0x0000000000017d33       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(mayfly.c.obj)
  .rodata.__func__.8056
-                0x0000000000017d27       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+                0x0000000000017d33       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
  .rodata.__func__.8069
-                0x0000000000017d4a       0x1b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+                0x0000000000017d56       0x1b subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
  .rodata.caller_id_lut
-                0x0000000000017d65        0x4 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+                0x0000000000017d71        0x4 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
  .rodata.hal_ticker_instance0_caller_id_get.str1.1
-                0x0000000000017d69       0x71 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+                0x0000000000017d75       0x71 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
                                          0x7c (size before relaxing)
  .rodata.hal_ticker_instance0_sched.str1.1
-                0x0000000000017dda       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
- *fill*         0x0000000000017dda        0x2 
+                0x0000000000017de6       0x23 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(ticker.c.obj)
+ *fill*         0x0000000000017de6        0x2 
  .rodata.net_buf_fixed_cb
-                0x0000000000017ddc        0xc subsys/net/libsubsys__net.a(buf.c.obj)
-                0x0000000000017ddc                net_buf_fixed_cb
+                0x0000000000017de8        0xc subsys/net/libsubsys__net.a(buf.c.obj)
+                0x0000000000017de8                net_buf_fixed_cb
  .rodata.drive_strength.9369
-                0x0000000000017de8       0x40 drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
+                0x0000000000017df4       0x40 drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
  .rodata.gpio_nrf5_P0_cfg
-                0x0000000000017e28        0x8 drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
+                0x0000000000017e34        0x8 drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
  .rodata.gpio_nrf5_drv_api_funcs
-                0x0000000000017e30       0x1c drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
+                0x0000000000017e3c       0x1c drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
  .rodata.str1.1
-                0x0000000000017e4c        0x7 drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
+                0x0000000000017e58        0x7 drivers/gpio/libdrivers__gpio.a(gpio_nrf5.c.obj)
  .rodata.str1.1
-                0x0000000000017e53        0x7 drivers/serial/libdrivers__serial.a(uart_nrfx_uart.c.obj)
+                0x0000000000017e5f        0x7 drivers/serial/libdrivers__serial.a(uart_nrfx_uart.c.obj)
  .rodata.uart_nrfx_init.str1.1
-                0x0000000000017e53        0x7 drivers/serial/libdrivers__serial.a(uart_nrfx_uart.c.obj)
- *fill*         0x0000000000017e53        0x1 
+                0x0000000000017e5f        0x7 drivers/serial/libdrivers__serial.a(uart_nrfx_uart.c.obj)
+ *fill*         0x0000000000017e5f        0x1 
  .rodata.uart_nrfx_uart_driver_api
-                0x0000000000017e54        0xc drivers/serial/libdrivers__serial.a(uart_nrfx_uart.c.obj)
+                0x0000000000017e60        0xc drivers/serial/libdrivers__serial.a(uart_nrfx_uart.c.obj)
  .rodata.entropy_nrf5_api_funcs
-                0x0000000000017e60        0x8 drivers/entropy/libdrivers__entropy.a(entropy_nrf5.c.obj)
+                0x0000000000017e6c        0x8 drivers/entropy/libdrivers__entropy.a(entropy_nrf5.c.obj)
  .rodata.str1.1
-                0x0000000000017e68        0xa drivers/entropy/libdrivers__entropy.a(entropy_nrf5.c.obj)
+                0x0000000000017e74        0xa drivers/entropy/libdrivers__entropy.a(entropy_nrf5.c.obj)
  .rodata.config_levels
-                0x0000000000017e68       0x14 kernel/libkernel.a(device.c.obj)
+                0x0000000000017e74       0x14 kernel/libkernel.a(device.c.obj)
  .rodata._k_neg_eagain
-                0x0000000000017e7c        0x4 kernel/libkernel.a(errno.c.obj)
-                0x0000000000017e7c                _k_neg_eagain
+                0x0000000000017e88        0x4 kernel/libkernel.a(errno.c.obj)
+                0x0000000000017e88                _k_neg_eagain
  .rodata._idle_thread
-                0x0000000000017e80        0x4 kernel/libkernel.a(init.c.obj)
-                0x0000000000017e80                _idle_thread
+                0x0000000000017e8c        0x4 kernel/libkernel.a(init.c.obj)
+                0x0000000000017e8c                _idle_thread
  .rodata.bg_thread_main.str1.1
-                0x0000000000017e84       0x34 kernel/libkernel.a(init.c.obj)
+                0x0000000000017e90       0x34 kernel/libkernel.a(init.c.obj)
  .rodata.str1.1
-                0x0000000000017eb8        0x1 kernel/libkernel.a(mempool.c.obj)
+                0x0000000000017ec4        0x1 kernel/libkernel.a(mempool.c.obj)
  .rodata.str1.1
-                0x0000000000017eb8        0x1 kernel/libkernel.a(system_work_q.c.obj)
+                0x0000000000017ec4        0x1 kernel/libkernel.a(system_work_q.c.obj)
  *(.gnu.linkonce.r.*)
-                0x0000000000017ebc                . = ALIGN (0x4)
-                0x0000000000017ebc                _image_rodata_end = .
-                0x0000000000017ebc                _image_rom_end = .
+                0x0000000000017ec8                . = ALIGN (0x4)
+                0x0000000000017ec8                _image_rodata_end = .
+                0x0000000000017ec8                _image_rom_end = .
 
-.rel.dyn        0x0000000000017eb8        0x0
- .rel.iplt      0x0000000000017eb8        0x0 CMakeFiles/kernel_elf.dir/isr_tables.c.obj
+.rel.dyn        0x0000000000017ec4        0x0
+ .rel.iplt      0x0000000000017ec4        0x0 CMakeFiles/kernel_elf.dir/isr_tables.c.obj
 
 bss             0x0000000020000000     0x1a08
                 0x0000000020000000                . = ALIGN (0x4)
@@ -4133,7 +4133,7 @@ noinit          0x0000000020001a08     0x2018
                 0x0000000020003620                sys_work_q_stack
  *(.kernel_noinit.*)
 
-datas           0x0000000020003a20      0x454 load address 0x0000000000017eb8
+datas           0x0000000020003a20      0x454 load address 0x0000000000017ec4
                 0x0000000020003a20                __data_ram_start = .
  *(.data)
  *(.data.*)
@@ -4257,9 +4257,9 @@ datas           0x0000000020003a20      0x454 load address 0x0000000000017eb8
                 0x0000000020003e70        0x4 kernel/libkernel.a(sys_clock.c.obj)
                 0x0000000020003e70                sys_clock_hw_cycles_per_tick
  *(.kernel.*)
-                0x0000000000017eb8                __data_rom_start = LOADADDR (datas)
+                0x0000000000017ec4                __data_rom_start = LOADADDR (datas)
 
-initlevel       0x0000000020003e74       0x90 load address 0x000000000001830c
+initlevel       0x0000000020003e74       0x90 load address 0x0000000000018318
                 0x0000000020003e74                __device_init_start = .
                 0x0000000020003e74                __device_PRE_KERNEL_1_start = .
  *(SORT(.init_PRE_KERNEL_1[0-9]))
@@ -4302,7 +4302,7 @@ initlevel_error
  *(SORT(.init_[_A-Z0-9]*))
                 0x0000000000000001                ASSERT ((SIZEOF (initlevel_error) == 0x0), Undefined initialization levels used.)
 
-initshell       0x0000000020003f04        0x0 load address 0x000000000001839c
+initshell       0x0000000020003f04        0x0 load address 0x00000000000183a8
                 0x0000000020003f04                __shell_module_start = .
  *(.shell_module_*)
                 0x0000000020003f04                __shell_module_end = .
@@ -4311,79 +4311,79 @@ initshell       0x0000000020003f04        0x0 load address 0x000000000001839c
                 0x0000000020003f04                __shell_cmd_end = .
 
 _static_thread_area
-                0x0000000020003f04        0x0 load address 0x000000000001839c
+                0x0000000020003f04        0x0 load address 0x00000000000183a8
                 0x0000000020003f04                _static_thread_data_list_start = .
  *(SORT(._static_thread_data.static.*))
                 0x0000000020003f04                _static_thread_data_list_end = .
 
-_k_timer_area   0x0000000020003f04        0x0 load address 0x000000000001839c
+_k_timer_area   0x0000000020003f04        0x0 load address 0x00000000000183a8
                 0x0000000020003f04                _k_timer_list_start = .
  *(SORT(._k_timer.static.*))
                 0x0000000020003f04                _k_timer_list_end = .
 
 _k_mem_slab_area
-                0x0000000020003f04        0x0 load address 0x000000000001839c
+                0x0000000020003f04        0x0 load address 0x00000000000183a8
                 0x0000000020003f04                _k_mem_slab_list_start = .
  *(SORT(._k_mem_slab.static.*))
                 0x0000000020003f04                _k_mem_slab_list_end = .
 
 _k_mem_pool_area
-                0x0000000020003f04        0x0 load address 0x000000000001839c
+                0x0000000020003f04        0x0 load address 0x00000000000183a8
  *(SORT(._k_memory_pool.struct*))
                 0x0000000020003f04                _k_mem_pool_list_start = .
  *(SORT(._k_mem_pool.static.*))
                 0x0000000020003f04                _k_mem_pool_list_end = .
 
-_k_sem_area     0x0000000020003f04       0x18 load address 0x000000000001839c
+_k_sem_area     0x0000000020003f04       0x18 load address 0x00000000000183a8
                 0x0000000020003f04                _k_sem_list_start = .
  *(SORT(._k_sem.static.*))
  ._k_sem.static.sem_prio_recv
                 0x0000000020003f04       0x18 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
                 0x0000000020003f1c                _k_sem_list_end = .
 
-_k_mutex_area   0x0000000020003f1c        0x0 load address 0x00000000000183b4
+_k_mutex_area   0x0000000020003f1c        0x0 load address 0x00000000000183c0
                 0x0000000020003f1c                _k_mutex_list_start = .
  *(SORT(._k_mutex.static.*))
                 0x0000000020003f1c                _k_mutex_list_end = .
 
-_k_alert_area   0x0000000020003f1c        0x0 load address 0x00000000000183b4
+_k_alert_area   0x0000000020003f1c        0x0 load address 0x00000000000183c0
                 0x0000000020003f1c                _k_alert_list_start = .
  *(SORT(._k_alert.static.*))
                 0x0000000020003f1c                _k_alert_list_end = .
 
-_k_queue_area   0x0000000020003f1c       0x10 load address 0x00000000000183b4
+_k_queue_area   0x0000000020003f1c       0x10 load address 0x00000000000183c0
                 0x0000000020003f1c                _k_queue_list_start = .
  *(SORT(._k_queue.static.*))
  ._k_queue.static.recv_fifo
                 0x0000000020003f1c       0x10 subsys/bluetooth/controller/libsubsys__bluetooth__controller.a(hci_driver.c.obj)
                 0x0000000020003f2c                _k_queue_list_end = .
 
-_k_stack_area   0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_stack_area   0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_stack_list_start = .
  *(SORT(._k_stack.static.*))
                 0x0000000020003f2c                _k_stack_list_end = .
 
-_k_msgq_area    0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_msgq_area    0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_msgq_list_start = .
  *(SORT(._k_msgq.static.*))
                 0x0000000020003f2c                _k_msgq_list_end = .
 
-_k_mbox_area    0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_mbox_area    0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_mbox_list_start = .
  *(SORT(._k_mbox.static.*))
                 0x0000000020003f2c                _k_mbox_list_end = .
 
-_k_pipe_area    0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_pipe_area    0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_pipe_list_start = .
  *(SORT(._k_pipe.static.*))
                 0x0000000020003f2c                _k_pipe_list_end = .
 
-_k_work_area    0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_work_area    0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_work_list_start = .
  *(SORT(._k_work.static.*))
                 0x0000000020003f2c                _k_work_list_end = .
 
-_k_task_list    0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_task_list    0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_task_list_start = .
  *(._k_task_list.public.*)
  *(._k_task_list.private.*)
@@ -4392,13 +4392,13 @@ _k_task_list    0x0000000020003f2c        0x0 load address 0x00000000000183c4
  *(SORT(._k_task_list*))
                 0x0000000020003f2c                _k_task_list_end = .
 
-_k_event_list   0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_event_list   0x0000000020003f2c        0x0 load address 0x00000000000183d0
                 0x0000000020003f2c                _k_event_list_start = .
  *(._k_event_list.event.*)
  *(SORT(._k_event_list*))
                 0x0000000020003f2c                _k_event_list_end = .
 
-_k_memory_pool  0x0000000020003f2c        0x0 load address 0x00000000000183c4
+_k_memory_pool  0x0000000020003f2c        0x0 load address 0x00000000000183d0
  *(._k_memory_pool.struct*)
  *(SORT(._k_memory_pool.struct*))
                 0x0000000020003f2c                _k_mem_pool_start = .
@@ -4407,7 +4407,7 @@ _k_memory_pool  0x0000000020003f2c        0x0 load address 0x00000000000183c4
                 0x0000000020003f2c                _k_mem_pool_end = .
 
 _net_buf_pool_area
-                0x0000000020003f2c       0x80 load address 0x00000000000183c4
+                0x0000000020003f2c       0x80 load address 0x00000000000183d0
                 0x0000000020003f2c                _net_buf_pool_list = .
  *(SORT(._net_buf_pool.static.*))
  ._net_buf_pool.static.acl_tx_pool
@@ -4423,19 +4423,19 @@ _net_buf_pool_area
                 0x0000000020003f8c       0x20 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
                 0x0000000020003f8c                hci_rx_pool
 
-net_if          0x0000000020003fac        0x0 load address 0x0000000000018444
+net_if          0x0000000020003fac        0x0 load address 0x0000000000018450
                 0x0000000020003fac                __net_if_start = .
  *(.net_if.*)
  *(SORT(.net_if.*))
                 0x0000000020003fac                __net_if_end = .
 
-net_if_dev      0x0000000020003fac        0x0 load address 0x0000000000018444
+net_if_dev      0x0000000020003fac        0x0 load address 0x0000000000018450
                 0x0000000020003fac                __net_if_dev_start = .
  *(.net_if_dev.*)
  *(SORT(.net_if_dev.*))
                 0x0000000020003fac                __net_if_dev_end = .
 
-net_l2_data     0x0000000020003fac        0x0 load address 0x0000000000018444
+net_l2_data     0x0000000020003fac        0x0 load address 0x0000000000018450
                 0x0000000020003fac                __net_l2_data_start = .
  *(.net_l2.data)
  *(SORT(.net_l2.data*))
