@@ -3355,19 +3355,18 @@ rodata          0x00000000000144f8     0x39b0
  .rodata.bt_init.str1.1
                 0x0000000000014df3      0x275 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_recv.str1.1
-                0x0000000000015068      0x1bf subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015068      0x1c0 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_recv_prio.str1.1
-                0x0000000000015227      0x132 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015228      0x132 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.bt_set_static_addr.str1.1
-                0x0000000000015359       0x48 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x000000000001535a       0x48 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.hci_cmd_done.str1.1
-                0x00000000000153a1       0x92 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x00000000000153a2       0x92 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
                                          0x93 (size before relaxing)
  .rodata.hci_tx_thread.str1.1
-                0x0000000000015433       0xab subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
+                0x0000000000015434       0xab subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.le_enh_conn_complete.str1.1
-                0x00000000000154de       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
- *fill*         0x0000000000015513        0x1 
+                0x00000000000154df       0x35 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.net_buf_fixed_alloc_hci_cmd_pool
                 0x0000000000015514        0x8 subsys/bluetooth/host/libsubsys__bluetooth__host.a(hci_core.c.obj)
  .rodata.net_buf_fixed_alloc_hci_rx_pool
