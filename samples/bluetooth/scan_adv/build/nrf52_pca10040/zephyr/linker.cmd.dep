@@ -1,0 +1,23 @@
+zephyr/linker.cmd: \
+ /home/wewise/zephyr_prj/zephyr/arch/arm/soc/nordic_nrf/nrf52/linker.ld \
+ /home/wewise/zephyr_prj/zephyr/include/arch/arm/cortex_m/scripts/linker.ld \
+ /home/wewise/zephyr_prj/zephyr/samples/bluetooth/scan_adv/build/nrf52_pca10040/zephyr/include/generated/autoconf.h \
+ /home/wewise/zephyr_prj/zephyr/include/linker/sections.h \
+ /home/wewise/zephyr_prj/zephyr/include/linker/section_tags.h \
+ /home/wewise/zephyr_prj/zephyr/include/toolchain.h \
+ /home/wewise/zephyr_prj/zephyr/include/toolchain/gcc.h \
+ /home/wewise/zephyr_prj/zephyr/include/toolchain/common.h \
+ /home/wewise/zephyr_prj/zephyr/samples/bluetooth/scan_adv/build/nrf52_pca10040/zephyr/include/generated/generated_dts_board.h \
+ /home/wewise/zephyr_prj/zephyr/include/linker/linker-defs.h \
+ /home/wewise/zephyr_prj/zephyr/include/misc/util.h \
+ /home/wewise/zephyr_prj/zephyr/include/linker/linker-tool.h \
+ /home/wewise/zephyr_prj/zephyr/include/linker/linker-tool-gcc.h \
+ /home/wewise/zephyr_prj/zephyr/include/linker/priv_stacks-text.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/kobject-text.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/common-rom.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/priv_stacks-rom.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/kobject-rom.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/common-ram.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/priv_stacks.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/kobject.ld \
+ /home/wewise/zephyr_prj/zephyr/include/linker/intlist.ld
