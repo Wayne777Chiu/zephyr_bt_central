@@ -3124,10 +3124,14 @@ static void le_adv_report(struct net_buf *buf)
 
 		rssi = info->data[info->length];
 
+		printk("%s event %u, len %u, rssi %d dBm",
+		       bt_addr_le_str(&info->addr),
+		       info->evt_type, info->length, rssi);
+/*
 		BT_DBG("%s event %u, len %u, rssi %d dBm",
 		       bt_addr_le_str(&info->addr),
 		       info->evt_type, info->length, rssi);
-
+*/
 		if (info->addr.type == BT_ADDR_LE_PUBLIC_ID ||
 		    info->addr.type == BT_ADDR_LE_RANDOM_ID) {
 			bt_addr_le_copy(&id_addr, &info->addr);
