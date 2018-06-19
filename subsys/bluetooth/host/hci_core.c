@@ -3124,7 +3124,7 @@ static void le_adv_report(struct net_buf *buf)
 
 		rssi = info->data[info->length];
 
-		printk("%s event %u, len %u, rssi %d dBm",
+		printk("%s event %u, len %u, rssi %d dBm\n",
 		       bt_addr_le_str(&info->addr),
 		       info->evt_type, info->length, rssi);
 /*
