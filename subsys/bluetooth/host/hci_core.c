@@ -3220,7 +3220,8 @@ static void hci_event(struct net_buf *buf)
 {
 	struct bt_hci_evt_hdr *hdr = (void *)buf->data;
 
-	BT_DBG("event 0x%02x", hdr->evt);
+	//BT_DBG("event 0x%02x", hdr->evt);
+	printk("event 0x%02x\n", hdr->evt);
 
 	BT_ASSERT(!bt_hci_evt_is_prio(hdr->evt));
 
